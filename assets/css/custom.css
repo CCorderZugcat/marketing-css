@@ -221,7 +221,7 @@ p a:hover {
   top: 0;
   left: 0;
   background-color: var(--cta-600);
-  background-image: url("../images/Layout/chevron-green-small.svg");
+  background-image: url("../assets/images/Layout/chevron-green-small.svg");
   background-repeat: no-repeat;
   background-size: auto;
   background-position: left top;
@@ -235,7 +235,7 @@ p a:hover {
   position: absolute;
   top: 0;
   left: 0;
-  background-image: url("../images/Layout/chevron-green-small.svg");
+  background-image: url("../assets/images/Layout/chevron-green-small.svg");
   background-repeat: no-repeat;
   background-size: auto;
   z-index: -1;
@@ -277,12 +277,20 @@ class needs to be applied to a div wrapped around the image you want to apply th
 Retro screen HUD background for elements (overlay style)
  */
 .retro-screen {
-  background-image: url("../images/Layout/overlay-tile-retro-screen.png");
+  background-image: url("../assets/images/Layout/overlay-tile-retro-screen.png");
    background-repeat: repeat;
     box-shadow: inset 10px 10px 10px rgba(255, 255, 255, 0.08),
     inset -20px -20px 20px rgba(0, 0, 0, 0.3);
    
 }
+
+hr.divider-sword{
+    background-image: url("../assets/images/Layout/divider-sword.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+}
+
 /* 
 My Tailwind wasn't compliing basic gradients for some reason. A simple corner glow that fits the cyberpunk style of blooming light.
  */
@@ -310,10 +318,10 @@ My Tailwind wasn't compliing basic gradients for some reason. A simple corner gl
 /* CTA Banner Chevrons XL */
   .banner-cta::before {
     content: "";
-    background-image: url("../images/Layout/chevron-green-large.svg");
+    background-image: url("../assets/images/Layout/chevron-green-large.svg");
   }
   .banner-cta::after {
     content: "";
-    background-image: url("../images/Layout/chevron-green-large.svg");
+    background-image: url("../assets/images/Layout/chevron-green-large.svg");
   }
 }

@@ -1,29 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg id="Layer_2" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1300 64">
-  <!-- Generator: Adobe Illustrator 30.1.0, SVG Export Plug-In . SVG Version: 2.1.1 Build 136)  -->
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1300 64">
   <defs>
     <style>
-      .st0 {
-        fill: url(#linear-gradient1);
+      .cls-1 {
+        fill: #53c9dc;
       }
 
-      .st1 {
-        fill: #481754;
+      .cls-2 {
+        fill: url(#linear-gradient-2);
       }
 
-      .st2 {
-        fill: #46a0f5;
+      .cls-3 {
+        fill: #c6edf3;
       }
 
-      .st3 {
-        opacity: .3;
-      }
-
-      .st4 {
+      .cls-4 {
         fill: url(#linear-gradient);
       }
     </style>
-    <linearGradient id="linear-gradient" x1="160.6" y1="315.3" x2="1139.4" y2="-249.9" gradientUnits="userSpaceOnUse">
+    <linearGradient id="linear-gradient" x1="160.59" y1="-249.31" x2="1139.41" y2="315.91" gradientTransform="translate(0 66) scale(1 -1)" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#b2bec0"/>
       <stop offset=".2" stop-color="#d1d8d9"/>
       <stop offset=".3" stop-color="#657d80"/>
@@ -38,7 +33,7 @@
       <stop offset=".9" stop-color="#a1b0b2"/>
       <stop offset="1" stop-color="#b2bec0"/>
     </linearGradient>
-    <linearGradient id="linear-gradient1" x1="160.6" y1="307.4" x2="1139.3" y2="-257.7" gradientUnits="userSpaceOnUse">
+    <linearGradient id="linear-gradient-2" x1="160.64" y1="-241.41" x2="1139.32" y2="323.68" gradientTransform="translate(0 66) scale(1 -1)" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#b2bec0"/>
       <stop offset=".2" stop-color="#d1d8d9"/>
       <stop offset=".3" stop-color="#657d80"/>
@@ -56,13 +51,12 @@
       <stop offset="1" stop-color="#b2bec0"/>
     </linearGradient>
   </defs>
-  <g id="Layer_1-2">
+  <g id="Layer_1-2" data-name="Layer 1-2">
     <g>
-      <polygon class="st3" points="0 32.8 0 41.8 44.8 41.8 73.9 64 520.9 64 528.4 50.7 728.5 50.7 736.7 44.6 812.2 44.6 826.2 57.8 1229.8 57.8 1239.8 41.8 1300 41.8 1300 32.8 0 32.8"/>
-      <polygon class="st4" points="0 28.2 0 37.2 44.8 37.2 73.9 59.4 520.9 59.4 528.4 46.1 728.5 46.1 736.7 40 812.2 40 826.2 53.2 1229.8 53.2 1239.8 37.2 1300 37.2 1300 28.2 0 28.2"/>
-      <polygon class="st0" points="1300 29.2 1300 20.6 1070.4 20.6 1041.2 -.6 707.1 -.6 691.7 15.5 629.5 15.5 620.7 20 424.5 20 392.3 5.6 161 5.6 132.2 20.5 0 20.5 0 29.2 1300 29.2"/>
-      <rect class="st1" y="24.9" width="1300" height="7.9"/>
-      <rect class="st2" y="27.9" width="1300" height="2"/>
+      <polygon class="cls-4" points="0 28.2 0 37.2 44.8 37.2 73.9 59.4 520.9 59.4 528.4 46.1 728.5 46.1 736.7 40 812.2 40 826.2 53.2 1229.8 53.2 1239.8 37.2 1300 37.2 1300 28.2 0 28.2"/>
+      <polygon class="cls-2" points="1300 29.2 1300 20.6 1070.4 20.6 1041.2 -.6 707.1 -.6 691.7 15.5 629.5 15.5 620.7 20 424.5 20 392.3 5.6 161 5.6 132.2 20.5 0 20.5 0 29.2 1300 29.2"/>
+      <rect class="cls-1" y="24.9" width="1300" height="7.9"/>
+      <rect class="cls-3" y="27.9" width="1300" height="2"/>
     </g>
   </g>
 </svg>
