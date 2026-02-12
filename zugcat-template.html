@@ -2,34 +2,42 @@
 <html lang="en"> 
     <head> 
         <meta charset="utf-8"> 
+        <meta name="robots" content="noindex, nofollow">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> 
-        <title>Zugcat Cybersecurity Framework for Startups</title>         
-        <link href="assets/css/tailwind.css" rel="stylesheet" type="text/css">
+        <title>Zugcat Cybersecurity for Startups</title>         
+        <link href="tailwind_theme/tailwind.css" rel="stylesheet" type="text/css">
     </head>     
-    <body class="text-gray-900 dark:text-gray-100">
-        <header class="bg-primary-950 block shadow-md shadow-secondary-900 left-0 sticky top-0 z-50">
-            <div class="container mx-auto relative"> 
-                <nav class="flex flex-wrap items-center p-4 lg:pr-12"> <a href="#" class="font-normal font-sans inline-flex items-center leading-none mr-auto text-3xl text-gray-200 hover:text-opacity-75"> <img src="assets/images/brand/logo-icon.png" width="48" class="mr-2"><span class="font-sans text-primary-500 dark:text-primary-500 dark:text-primary-500">Zugcat</span> </a>
-                    <button class="hover:bg-white hover:text-secondary-500 lg:hidden px-3 py-2 rounded text-secondary-500" data-name="nav-toggler" data-pg-ia='{"l":[{"name":"NabMenuToggler","trg":"click","a":{"l":[{"t":"^nav|[data-name=nav-menu]","l":[{"t":"set","p":0,"d":0,"l":{"class.remove":"hidden"}}]},{"t":"#gt# span:nth-of-type(1)","l":[{"t":"tween","p":0,"d":0.2,"l":{"rotationZ":45,"yPercent":300}}]},{"t":"#gt# span:nth-of-type(2)","l":[{"t":"tween","p":0,"d":0.2,"l":{"autoAlpha":0}}]},{"t":"#gt# span:nth-of-type(3)","l":[{"t":"tween","p":0,"d":0.2,"l":{"rotationZ":-45,"yPercent":-300}}]}]},"pdef":"true","trev":"true"}]}' data-pg-ia-apply="$nav [data-name=nav-toggler]"> <span class="block border-b-2 border-current my-1 w-6"></span> <span class="block border-b-2 border-current my-1 w-6"></span> <span class="block border-b-2 border-current my-1 w-6"></span> 
-                    </button>
-                    <div class="lg:flex lg:space-x-4 lg:space-y-0 lg:w-auto space-y-2 w-full hidden lg:items-center" data-name="nav-menu"> 
-                        <div class="flex flex-col lg:flex-row"> <a href="#" class="text-gray-50 dark:text-gray-300 hover:bg-black hover:bg-opacity-25 hover:text-green-300 lg:flex lg:flex-row lg:hover:p-2 lg:p-2">Home</a><a href="#" class="text-gray-50 dark:text-gray-300 hover:bg-black hover:bg-opacity-25 hover:text-green-300 lg:flex lg:flex-row lg:hover:p-2 lg:p-2">About</a><a href="#" class="text-gray-50 dark:text-gray-300 hover:bg-black hover:bg-opacity-25 hover:text-green-300 lg:flex lg:flex-row lg:hover:p-2 lg:p-2">Services</a><a href="#" class="text-gray-50 dark:text-gray-300 hover:bg-black hover:bg-opacity-25 hover:text-green-300 lg:flex lg:flex-row lg:hover:p-2 lg:p-2">Resources</a>
-                        </div><a href="#" class="bg-cta-500 border-2 border-green-200 cta font-bold inline-block px-6 py-2 rounded-bl-2xl rounded-br rounded-tl rounded-tr-2xl text-green-200 uppercase dark:bg-cta-600 dark:border-2 dark:border-primary-500 dark:shadow-primary-700 dark:shadow-sm dark:text-green-200 hover:bg-green-100 hover:border-cta-500 hover:shadow-md hover:shadow-primary-500 hover:text-cta-500">Contact Now</a>
+    <body class="text-gray-100">
+        <!-- Header and Navigation-->
+        <header class="block top-0 left-0 z-50 sticky bg-black shadow-md shadow-primary-900">
+            <div class="relative lg:flex lg:flex-nowrap lg:justify-center mx-auto lg:w-11/12 2xl:w-9/12"> 
+                <nav class="flex flex-wrap p-4 pt-8 pb-8 w-full"> 
+                    <a href="#" class="logo inline-flex items-center mr-auto font-sans font-normal text-gray-200 text-3xl"> <img src="assets/images/brand/zugcat-logo.svg" width="120" class="mr-8" alt="Zugcat Logo"> </a>
+                    <div class="hidden lg:flex lg:items-center lg:space-x-4 space-y-2 lg:space-y-0 w-full lg:w-auto" data-name="nav-menu"> 
+                        <div class="flex lg:flex-row flex-col"> <a href="#" class="lg:flex lg:flex-row p-2 text-gray-300 hover:text-secondary-300">Home</a>
+                            <a href="#" class="lg:flex lg:flex-row p-2 text-gray-300 hover:text-secondary-300">About</a>
+                            <a href="#" class="lg:flex lg:flex-row p-2 text-gray-300 hover:text-secondary-300">Services</a>
+                            <a href="#" class="lg:flex lg:flex-row p-2 text-gray-300 hover:text-secondary-300">Resources</a>
+                        </div>
+                        <a href="#" class="inline-block relative bg-cta-500 hover:bg-primary-600 bg-linear-to-b from-cta-500 via-cta-500 hover:bg-none shadow-black shadow-md hover:shadow-cta-700 hover:shadow-md px-6 py-2 border-2 border-gray-950 hover:border-cta-500 rounded-full font-bold text-black hover:text-cta-500 uppercase to-primary-accent-500 btn-cta btn-glass cta">Contact Now</a>
                     </div>
+                    <button class="lg:hidden hover:bg-white px-3 py-2 rounded text-secondary-500 hover:text-secondary-500" data-name="nav-toggler"> <span class="block my-1 border-current border-b-2 w-6"></span> <span class="block my-1 border-current border-b-2 w-6"></span> <span class="block my-1 border-current border-b-2 w-6"></span> 
+                    </button>
                 </nav>
             </div>
         </header>
-        <main class="dark:relative lg:w-full">
-            <section class="bg-primary-950 overflow-hidden relative lg:h-screen lg:p-0 lg:w-full" style="background-size: cover; background-position: right center;">
-                <div class="block inset-0 overflow-hidden relative rounded-t-none w-full lg:absolute lg:border-0 lg:flex lg:h-full lg:mb-0 lg:rounded-none"> 
-                    <img src="assets/images/hero-cat-and-mouse.jpg" class="h-full w-full lg:object-cover" alt="Cat with green eyes pouncing a mouse on a damaging a circuit board">
+        <main class="relative lg:w-full">
+            <!-- Hero Section-->
+            <section class="relative bg-primary-950 lg:p-0 lg:w-full lg:h-screen overflow-hidden">
+                <div class="block lg:absolute relative inset-0 lg:flex lg:mb-0 lg:border-0 lg:rounded-none rounded-t-none w-full lg:h-full overflow-hidden"> 
+                    <img src="assets/images/hero-cat-and-mouse.png" class="h-full w-full lg:object-cover" alt="Cat with green eyes pouncing a mouse on a damaging a circuit board">
                 </div>
-                <div class="container lg-pb-24 lg-pt-40 mx-auto px-6 relative lg:flex lg:w-full">
-                    <div class="flex flex-wrap items-center pb-24 pt-12 space-y-6 lg:py-20 lg:space-y-0 xl:py-32 2xl:py-40">
+                <div class="relative lg:flex mx-auto px-6 lg-pb-24 lg:w-11/12 2xl:w-9/12 container">
+                    <div class="flex flex-wrap items-center space-y-6 lg:space-y-0 lg:py-20 2xl:py-40 xl:py-32 pt-12 pb-24">
                         <div class="w-full lg:w-6/12"> 
-                            <h1 class="font-bold mb-6 text-3xl text-primary-300 uppercase dark:text-primary-300 lg:text-5xl">Affordable Cybersecurity for startups &amp; medium businesses</h1>
-                            <p class="mb-6 text-gray-100 sm:pr-12 md:text-lg">Defend your digital assets with enterprise-grade cybersecurity framework, minus the overhead and cost of a full IT department.</p>
-                            <a href="#" class="bg-cta-500 border-2 border-green-200 cta font-bold inline-block px-6 py-2 rounded-bl-2xl rounded-br rounded-tl rounded-tr-2xl text-green-200 uppercase dark:bg-cta-600 dark:border-2 dark:border-primary-500 dark:shadow-primary-700 dark:shadow-sm dark:text-green-200 hover:bg-green-100 hover:border-cta-500 hover:shadow-md hover:shadow-primary-500 hover:text-cta-500">Contact Now</a> 
+                            <h1 class="mb-6 font-brand font-bold text-primary-300 text-3xl lg:text-5xl normal-case leading-tight">Affordable Cybersecurity for Startups &amp; Medium Businesses</h1>
+                            <p class="mb-6 sm:pr-12 text-gray-100 md:text-lg">Defend your digital assets with enterprise-grade cybersecurity framework, minus the overhead and cost of a full IT department.</p>
+                            <a href="#" class="inline-block relative bg-cta-500 hover:bg-primary-600 bg-linear-to-b from-cta-500 via-cta-500 hover:bg-none shadow-black shadow-md hover:shadow-cta-700 hover:shadow-md mt-6 px-6 py-2 border-2 border-gray-950 hover:border-cta-500 rounded-full font-bold text-black hover:text-cta-500 uppercase to-primary-accent-500 btn-cta btn-glass cta">Contact Now</a> 
                         </div>
                         <div class="hidden justify-center px-4 w-full lg:w-6/12"> 
                             <img src="assets/images/brand/logo-icon.png" class="inline-block"> 
@@ -37,47 +45,46 @@
                     </div>
                 </div>
             </section>
-            <div class="relative z-10" style="height:0;" data-pg-name="CyberSeperator">
-                <div class="relative w-full flex" style="height:0;">
-                    <div style="height: 64px; width: 100%; display: block; position: relative; top: -32px; background-image: url('assets/images/layout/seperator-cyber-metal.svg'); background-size:1300px 64px ; background-position: 250px center; background-repeat: repeat-x;"></div>
-                </div>
+            <div class="seperator-cyber-metal">
+                <hr/>
             </div>
-            <section class="bg-gray-100 gradient-secondary pb-32 pt-16 px-6 text-center lg:px-10"> 
-                <h2 class="font-bold mb-10 text-xl dark:text-green-300 lg:font-bold lg:font-sans lg:text-4xl lg:text-center lg:uppercase">Small Business Cybersecurity Stats</h2>
-                <div class="container mx-auto relative"> 
+            <!-- Stat Section-->
+            <section class="px-4 py-24 lg:pb-38 gradient-primary"> 
+                <h2 class="mb-10 font-brand text-secondary-300 text-xl lg:text-4xl lg:text-center">Small Business Cybersecurity Stats</h2>
+                <div class="relative container"> 
 </div>                 
-                <div class="container mx-auto px-4 relative text-left"> 
-                    <div class="-mx-4 gap-6 grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4"> 
-                        <div class="gap-6 grid grid-cols-2 justify-items-center p-6 retro-screen w-full dark:bg-opacity-25 dark:bg-primary-950/90 dark:border-2 dark:border-secondary-600 dark:rounded-bl-2xl dark:rounded-tr-2xl sm:gap-3 sm:p-3 md:dark:border-secondary-300 lg:p-6 xl:gap-3 xl:p-3"> 
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="currentColor" class="mb-auto mt-auto self-center text-primary-700 dark:text-primary-300"> 
+                <div class="@container relative bg-gray-950 shadow-black/75 shadow-md mx-auto p-1 border-2 border-gray-950 rounded-lg lg:w-11/12 2xl:w-9/12 text-left"> 
+                    <div class="gap-6 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 p-4 p-4 p-8 border border-black retro-screen"> 
+                        <div class="justify-items-center gap-6 md:gap-3 lg:gap-6 xl:gap-3 xl:gap-3 grid grid-cols-2 bg-secondary-500/10 p-6 md:p-3 lg:p-6 xl:p-3 border-primary-300 border-secondary-500 w-full overflow-hidden cyber-shape"> 
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="currentColor" class="self-center mt-auto mb-auto text-secondary-300 cyber-text"> 
                                 <path d="M491.56,345.19c-.65-1.78-1.77-2.81-2.63-3.65-5.22-5.08-8.7-10.25-13.29-17.09-2.64-3.93-4.14-6.19-5.26-9.79-.44-1.42-.85-3.11-1.31-9.93-.28-4.15-.72-12.16-1.46-20.01-.4-4.28-.68-6.29-2.34-7.89-.98-.95-2.73-2.01-8.62-2.05-2-.01-6.18.09-15.19,2.19-1.46.34-5.5,1.69-13.59,4.38-1.69.56-3.96,1.35-5.7,3.51-1.34,1.66-1.84,3.47-2.05,4.67-.88,8.34-1.78,15.92-2.63,23.08-.29,2.45-.72,5.7-3.07,8.77-2.83,3.69-6.84,4.95-7.96,5.33-7.59,2.59-67.14,27.65-150.46,62.89-83.32-35.24-142.87-60.31-150.46-62.89-1.13-.38-5.14-1.64-7.96-5.33-2.35-3.07-2.78-6.31-3.07-8.77-.85-7.17-1.75-14.74-2.63-23.08-.21-1.21-.7-3.01-2.05-4.67-1.74-2.16-4-2.94-5.7-3.51-8.08-2.7-12.13-4.04-13.59-4.38-9.02-2.1-13.19-2.2-15.19-2.19-5.89.03-7.64,1.1-8.62,2.05-1.66,1.59-1.94,3.61-2.34,7.89-.74,7.86-1.18,15.86-1.46,20.01-.47,6.82-.87,8.51-1.31,9.93-1.12,3.59-2.62,5.86-5.26,9.79-4.6,6.84-8.07,12.01-13.29,17.09-.86.84-1.98,1.88-2.63,3.65-.45,1.23-.88,3.35,1.46,10.23,1.31,3.84,2.02,5.95,3.65,8.77,1.99,3.43,3.97,6.86,8.04,9.2.93.53,3.37,1.91,6.72,2.19,3.19.27,6.14-.55,11.4-3.36,7.88-4.21,9.23-6.63,17.82-11.54,5.65-3.23,7.79-3.74,9.5-3.94,5.08-.6,9.36,1.17,11.83,2.48,39.83,16.51,79.67,33.02,119.5,49.53-20.31,8.47-40.61,16.95-60.92,25.42-1.69.55-4.21,1.17-7.3,1.17-.9,0-4.65-.05-9.64-2.05-2.11-.84-5.62-3.15-12.56-7.74-2.37-1.57-4.43-2.95-7.6-4.24-2.36-.96-3.97-1.59-6.14-1.61-3.52-.03-6.14,1.59-8.47,3.07-1.66,1.05-3.71,3.1-7.74,7.16-.66.66-4.47,4.52-7.45,8.91-.51.75-1.32,1.99-1.75,3.8-.07.28-.53,2.26-.15,4.24.57,2.97,2.8,4.81,4.67,6.43,1.87,1.61,8.46,7.31,12.56,12.56,2.14,2.75,3.44,4.94,4.38,7.01.39.86,1.33,3.03,2.05,5.99.51,2.11.73,3.9.88,5.7.57,6.87.23,15.83.15,17.97-.03,1.2.11,3.46,1.61,5.41,1.38,1.78,3.28,2.49,4.82,2.92,10.72,3.02,26.23-.83,29.8-1.75,3.64-.94,6.17-1.77,8.04-4.09,1.1-1.36,1.69-2.9,2.34-9.5.97-9.99.26-13.14,2.34-18.7,1.07-2.87,2.17-4.46,2.78-5.26,2.58-3.41,5.81-5.15,7.74-5.99,30.41-12.81,60.81-25.61,91.22-38.42,30.41,12.81,60.81,25.61,91.22,38.42,1.93.84,5.16,2.58,7.74,5.99.61.8,1.7,2.39,2.78,5.26,2.07,5.56,1.36,8.71,2.34,18.7.64,6.6,1.24,8.13,2.34,9.5,1.87,2.32,4.39,3.15,8.04,4.09,3.57.93,19.08,4.78,29.8,1.75,1.54-.43,3.45-1.14,4.82-2.92,1.5-1.94,1.63-4.21,1.61-5.41-.09-2.14-.42-11.1.15-17.97.15-1.79.37-3.59.88-5.7.71-2.96,1.65-5.13,2.05-5.99.95-2.08,2.24-4.26,4.38-7.01,4.1-5.26,10.7-10.95,12.56-12.56,1.87-1.62,4.11-3.46,4.67-6.43.38-1.98-.08-3.96-.15-4.24-.43-1.81-1.24-3.05-1.75-3.8-2.98-4.39-6.79-8.25-7.45-8.91-4.04-4.06-6.09-6.11-7.74-7.16-2.33-1.48-4.95-3.09-8.47-3.07-2.17.02-3.77.65-6.14,1.61-3.17,1.28-5.23,2.67-7.6,4.24-6.94,4.59-10.46,6.9-12.56,7.74-5,1.99-8.74,2.05-9.64,2.05-3.09,0-5.62-.62-7.3-1.17-20.31-8.47-40.61-16.95-60.92-25.42,39.83-16.51,79.67-33.02,119.5-49.53,2.48-1.32,6.75-3.09,11.83-2.48,1.7.2,3.84.71,9.5,3.94,8.59,4.91,9.94,7.33,17.82,11.54,5.26,2.81,8.21,3.63,11.4,3.36,3.35-.28,5.79-1.66,6.72-2.19,4.06-2.34,6.05-5.77,8.04-9.2,1.63-2.81,2.35-4.92,3.65-8.77,2.34-6.88,1.91-9,1.46-10.23Z"/> 
                                 <path class="cls-1" d="M395.32,130.4c1.76-31.25-11.77-67-36.67-92.33C318.41-2.88,264.52-.32,256,.23c-8.52-.55-62.41-3.11-102.65,37.84-24.89,25.33-38.43,61.08-36.67,92.33.69,12.19,4.93,45.57,13.15,66.18,1.14,2.87,3.82,9.15,3.51,17.53-.31,8.23-3.23,10.84-7.01,23.67-3.35,11.37-5.03,17.05-3.94,23.23,2.06,11.76,11.25,19.15,15.78,22.79,5.66,4.55,10.77,8.66,17.97,8.77,10.93.16,21.61-9,22.35-9.64,3.69-3.23,4.89-5.53,7.73-5.55,5.74-.05,10.01,9.29,10.97,11.4,3.38,7.41,3.12,14.7,2.34,19.58-.29,4.87-.58,9.74-.88,14.61-.52,2.27-1.27,7.04.88,11.98,2.18,5.03,6.2,7.57,8.43,8.99,13.94,8.82,45.11,8.32,48.05,8.25,2.94.07,34.12.57,48.05-8.25,2.23-1.41,6.25-3.96,8.43-8.99,2.14-4.94,1.4-9.7.88-11.98-.29-4.87-.58-9.74-.88-14.61-.78-4.88-1.05-12.17,2.34-19.58.96-2.11,5.23-11.45,10.97-11.4,2.84.03,4.04,2.32,7.73,5.55.74.65,11.43,9.8,22.35,9.64,7.2-.1,12.31-4.22,17.97-8.77,4.53-3.64,13.71-11.03,15.78-22.79,1.08-6.18-.59-11.86-3.94-23.23-3.78-12.83-6.7-15.43-7.01-23.67-.32-8.38,2.36-14.67,3.51-17.53,8.22-20.61,12.46-53.99,13.15-66.18ZM215,237.35c-5.24,3.42-9.77,6.37-16.65,7.08-8.81.91-15.67-2.45-18.19-3.73-1.37-.69-5.85-3.07-10.74-8.33-4.53-4.87-15.76-16.93-13.26-33.2,2.18-14.2,13.35-21.96,15.01-23.07,9.65-6.48,19.59-6.02,24.21-5.74,16.82,1.02,37.6,11.9,40.76,29.15,1.49,8.11-1.39,15.1-2.52,17.86-4.4,10.72-12.81,16.19-18.63,19.98ZM279.25,282.01c-.29,1.38-1.04,5-3.4,7.23-3.96,3.75-12.11,3.28-19.85-1.42-7.74,4.71-15.89,5.17-19.85,1.42-2.36-2.23-3.11-5.85-3.4-7.23-.68-3.26-.2-5.8.77-10.74.36-1.83,1.15-5.48,2.85-10.41,1.48-4.3,2.85-7.21,4.82-11.4,3.27-6.92,6.05-11.69,8.88-12.05,1.16-.15,2.41,0,2.41,0,1.57.19,2.78.71,3.52,1.1.74-.39,1.95-.91,3.52-1.1,0,0,1.25-.15,2.41,0,2.83.37,5.61,5.14,8.88,12.05,1.97,4.18,3.34,7.09,4.82,11.4,1.7,4.93,2.49,8.58,2.85,10.41.97,4.94,1.44,7.48.77,10.74ZM342.58,232.37c-4.89,5.25-9.37,7.63-10.74,8.33-2.52,1.27-9.38,4.64-18.19,3.73-6.88-.71-11.41-3.66-16.65-7.08-5.82-3.79-14.22-9.27-18.63-19.98-1.13-2.76-4.01-9.75-2.52-17.86,3.16-17.25,23.94-28.13,40.76-29.15,4.63-.28,14.57-.74,24.21,5.74,1.66,1.12,12.83,8.87,15.01,23.07,2.5,16.27-8.73,28.33-13.26,33.2Z"/> 
                             </svg>
-                            <div> 
-                                <h3 class="text-base"><span class="block clear-both font-bold text-5xl text-primary-700 dark:text-primary-300 2xl:text-6xl">60%</span> of small business fail within six months of a cyberattach.</h3> 
+                            <div class="pt-3 text-left"> 
+                                <h3 class="text-base"><span class="block clear-both font-bold text-secondary-500 text-5xl 2xl:text-6xl">60%</span> of small business fail within six months of a cyberattach.</h3> 
                             </div>
                         </div>
-                        <div class="gap-6 grid grid-cols-2 p-6 retro-screen w-full dark:bg-opacity-25 dark:bg-primary-950/90 dark:border-2 dark:border-secondary-600 dark:rounded-bl-2xl dark:rounded-tr-2xl sm:gap-3 sm:p-3 md:dark:border-secondary-300 lg:p-6 xl:gap-3 xl:p-3"> 
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="currentColor" class="mb-auto mt-auto self-center text-secondary-300"> 
+                        <div class="justify-items-center gap-6 md:gap-3 lg:gap-6 xl:gap-3 xl:gap-3 grid grid-cols-2 bg-secondary-500/10 p-6 md:p-3 lg:p-6 xl:p-3 border-primary-300 border-secondary-500 w-full overflow-hidden cyber-shape"> 
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="currentColor" class="self-center mt-auto mb-auto text-secondary-300 cyber-text"> 
                                 <circle fill="currentColor" cx="64" cy="64.25" r="20.68"/> 
                                 <path fill="currentColor" d="M111.26,58.43c-2.63-21.65-19.8-38.81-41.44-41.44V.25h-11.62v16.73c-21.66,2.64-38.82,19.8-41.45,41.45H0v11.63h16.74c2.63,21.65,19.8,38.81,41.44,41.44v16.73h11.62v-16.73c21.66-2.64,38.82-19.8,41.45-41.45h16.73v-11.63h-16.74ZM100.28,70.07c-2.49,15.63-14.83,27.98-30.47,30.47-1.89.3-3.84.46-5.81.46s-3.92-.16-5.81-.46c-15.63-2.49-27.98-14.83-30.46-30.46-.31-1.89-.47-3.84-.47-5.82s.16-3.92.46-5.81c2.49-15.63,14.83-27.98,30.47-30.47,1.89-.3,3.84-.46,5.81-.46s3.92.16,5.81.46c15.63,2.49,27.98,14.83,30.46,30.46.31,1.89.47,3.84.47,5.82s-.16,3.92-.46,5.81Z"/> 
                             </svg>
                             <div class="text-left"> 
-                                <h3 class="text-base"><span class="block clear-both font-bold text-5xl text-secondary-700 dark:text-secondary-300 2xl:text-6xl">43%</span> of Cyberattacks target small businesses.</h3> 
+                                <h3 class="text-base"><span class="block clear-both font-bold text-secondary-500 text-5xl 2xl:text-6xl">43%</span> of Cyberattacks target small businesses.</h3> 
                             </div>                             
                         </div>
-                        <div class="gap-6 grid grid-cols-2 p-6 retro-screen w-full dark:bg-opacity-25 dark:bg-primary-950/90 dark:border-2 dark:border-secondary-600 dark:rounded-bl-2xl dark:rounded-tr-2xl sm:gap-3 sm:p-3 md:dark:border-secondary-300 lg:p-6 xl:gap-3 xl:p-3"> 
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="currentColor" class="self-center text-orange-300">
+                        <div class="justify-items-center gap-6 md:gap-3 lg:gap-6 xl:gap-3 xl:gap-3 grid grid-cols-2 bg-secondary-500/10 p-6 md:p-3 lg:p-6 xl:p-3 border-primary-300 border-secondary-500 w-full overflow-hidden cyber-shape"> 
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="currentColor" class="self-center mt-auto mb-auto text-secondary-300 cyber-text">
                                 <path d="M222.82,321c0,2.98,1,5.47,3,7.46,2,2,5,3.85,9,5.55l7.66,3.49v-30.88c-4.95.67-8.95,1.82-12,3.47-5.1,2.77-7.66,6.4-7.66,10.91Z"/>
                                 <path d="M276.67,383.27l-6.63-2.7v32.52c3.41-.29,6.34-.78,8.74-1.49,4.04-1.19,6.95-2.87,8.74-5.04,1.79-2.17,2.68-4.66,2.68-7.46,0-3.23-1.17-6.21-3.51-8.93-2.34-2.72-5.68-5.02-10.02-6.89Z"/>
                                 <path d="M451.29,215.11h-52.77v-71.65h-.01C397.96,65.33,334.25,1.94,256,1.94S113.48,65.88,113.48,144.46v70.65h-52.77c-6.6,0-12,5.4-12,12v272.27c0,6.6,5.4,12,12,12h390.58c6.6,0,12-5.4,12-12V227.11c0-6.6-5.4-12-12-12ZM153.48,144.46c0-56.53,45.99-102.52,102.52-102.52s102.52,45.99,102.52,102.52v70.65h-205.03v-70.65ZM328.22,424.42c-5.28,7.7-13.51,13.97-24.69,18.82-9.02,3.91-20.19,6.24-33.5,7v24.65h-27.56v-25.36c-4.82-.55-9.54-1.32-14.16-2.33-10.12-2.21-19.12-5.7-26.99-10.46-7.87-4.76-14.08-10.95-18.63-18.57-4.55-7.61-6.83-16.82-6.83-27.63h40.32c0,5.61,1.64,10.1,4.91,13.46,3.27,3.36,8.34,5.76,15.18,7.21,1.91.4,3.99.75,6.19,1.04v-38.53l-17.61-6.14c-14.55-5.1-25.95-11.27-34.2-18.5-8.25-7.23-12.38-17.01-12.38-29.35,0-14.46,6.51-26.14,19.52-35.03,10.81-7.38,25.7-11.69,44.66-12.94v-20.17h27.56v20.61c15.94,1.79,28.47,6.53,37.58,14.23,11.87,10.04,19.33,23.95,22.39,41.73h-40.32c-1.28-5.61-4.89-10.72-10.85-15.31-2.51-1.93-5.46-3.43-8.8-4.55v37.07l27.31,10.1c13.95,5.1,23.9,11.15,29.86,18.12,5.95,6.98,8.93,15.82,8.93,26.54,0,8.51-2.64,16.61-7.91,24.31Z"/>
                             </svg>
-                            <div class="block relative xl:block"> 
-                                <h3 class="text-base"><span class="block clear-both font-bold text-5xl text-orange-500 dark:text-orange-300 lg:text-center 2xl:text-6xl">21</span> days of downtime after a ransomware  attach.</h3>
+                            <div class="block xl:block relative"> 
+                                <h3 class="text-base"><span class="block clear-both font-bold text-secondary-500 text-5xl 2xl:text-6xl">21</span> days of downtime after a ransomware  attach.</h3>
                             </div>                             
                         </div>                         
-                        <div class="gap-6 grid grid-cols-2 p-6 retro-screen w-full dark:bg-opacity-25 dark:bg-primary-950/90 dark:border-2 dark:border-secondary-600 dark:rounded-bl-2xl dark:rounded-tr-2xl sm:gap-3 sm:p-3 md:dark:border-secondary-300 lg:p-6 xl:gap-3 xl:p-3"> 
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="currentColor" class="self-center text-green-300">
+                        <div class="justify-items-center gap-6 md:gap-3 lg:gap-6 xl:gap-3 xl:gap-3 grid grid-cols-2 bg-secondary-500/10 p-6 md:p-3 lg:p-6 xl:p-3 border-primary-300 border-secondary-500 w-full overflow-hidden cyber-shape"> 
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="currentColor" class="self-center mt-auto mb-auto text-secondary-300 cyber-text">
                                 <path d="M497.57,141.32c-1.53-.42-37.8-10.33-63.45-5.88-12.42,2.15-29,8.23-42.72,13.89-1.57-6.43-3.74-13.71-6.79-21.6-8.31-3.05-15.94-5.18-22.61-6.71,5.75-13.86,12.02-30.83,14.21-43.48,4.45-25.65-5.45-61.92-5.88-63.45-1.37-4.95-6.5-7.86-11.45-6.49-4.95,1.37-7.86,6.49-6.5,11.45.09.34,9.21,33.8,5.48,55.31-2.11,12.16-8.89,29.75-14.66,43.31-20.95-3.06-49.97-5.68-72.93,11.01-6.85,4.98-11.47,10.44-14.32,14.32l113.39,113.39c3.79-2.8,9.28-7.43,14.32-14.32,17.41-23.84,14.25-54.06,11.26-74.02,13.42-5.68,30.49-12.2,42.37-14.26,21.51-3.73,54.98,5.39,55.31,5.48,4.96,1.37,10.08-1.54,11.45-6.5,1.37-4.95-1.54-10.08-6.49-11.45Z"/>
                                 <g>
                                     <path d="M215.48,314.54c4.73-4.73,4.73-12.42,0-17.15s-12.42-4.73-17.15,0-4.73,12.42,0,17.15,12.42,4.73,17.15,0Z"/>
@@ -87,60 +94,59 @@
                                 </g>
                             </svg>
                             <div> 
-                                <h3 class="text-base"><span class="block clear-both font-bold text-5xl dark:text-green-300 2xl:text-6xl">30%</span>  cybercrime growth per year in U.S. and increasing.</h3> 
+                                <h3 class="text-base"><span class="block clear-both font-bold text-secondary-500 text-5xl 2xl:text-6xl">30%</span>  cybercrime growth per year in U.S. and increasing.</h3> 
                             </div>                             
                         </div>                         
                     </div>                     
                 </div>
             </section>
-            <div class="relative z-10" style="height:0;" data-pg-name="CyberSeperator">
-                <div class="relative w-full flex" style="height:0;">
-                    <div style="height: 64px; width: 100%; display: block; position: relative; top: -32px; background-image: url('assets/images/layout/seperator-cyber-metal.svg'); background-size:1300px 64px ; background-position: left center; background-repeat: repeat-x;"></div>
-                </div>
+            <div class="seperator-cyber-metal">
+                <hr/>
             </div>
-            <section class="dark:bg-primary-950 lg:px-10 lg:py-40 px-6 py-24 relative text-center" style="background-position: center center; background-size: cover;"> 
-                <div class="block border-b-0 border-l-2 border-primary-300 border-r-2 border-t-2 inset-0 overflow-hidden relative rounded-tl rounded-tr-3xl shadow-md shadow-secondary-500 w-full dark:border-secondary-300 lg:absolute lg:border-0 lg:flex lg:h-full lg:mb-0 lg:rounded-none"> 
-                    <img src="assets/images/man-on-computer-zucat-sleeping.jpg" class="h-full w-full lg:object-cover" alt="Professional looking hacker working at night">
+            <!-- 50/50 Big Background, Text Left Section (zug sleeping)-->
+            <section class="relative lg:justify-items-center px-4 py-24 pb-40 gradient-primary"> 
+                <div class="block lg:absolute relative inset-0 lg:flex shadow-md mb-8 lg:mb-0 border-2 border-primary-300 lg:border-0 rounded-lg rounded-tl w-full lg:h-full overflow-hidden"> 
+                    <img src="assets/images/man-on-computer-zucat-sleeping.jpg" class="w-full h-full lg:object-cover" alt="Professional working on computer at night">
                 </div>
-                <div class="container mx-auto px-4 relative"> 
-                    <div class="-mx-4 flex flex-wrap justify-center lg:justify-start"> 
-                        <div class="md:w-full lg:w-6/12"> 
-                            <div class="border-2 border-secondary-600 p-2 rounded-bl-3xl rounded-br rounded-tl-none rounded-tr shadow-none dark:bg-opacity-90 dark:bg-primary-950/90 dark:border-secondary-500 lg:text-left"> 
-                                <div class="mx-auto w-full"> 
-                                    <div class=" border-2 border-primary-600 dark:border-primary-500 dark:shadow-orange-900 lg:p-6 p-6 retro-screen rounded-bl-2xl rounded-br rounded-tl rounded-tr-2xl shadow-md shadow-secondary-500 text-left"> 
-                                        <div class="w-full"> 
-                                            <h2 class="font-medium mb-6 text-primary-700 dark:text-primary-300">Do I really need it? We&apos;re just starting?</h2> 
-                                            <h3 class="font-bold mb-6 text-2xl text-secondary-600 uppercase dark:text-secondary-200 lg:text-4xl">Yes, you need cybersecurity early in your startup journey.</h3>
-                                            <p class="mb-12 text-base md:text-lg">Customers and future envestors demand security. That&apos;s where Zugcat steps in with lightweight, sustainable, and affordable <a href="#">cybersecurity solutions</a> that are built for growing businesses. We lay the secure foundation baseline when your business is small, so Cybersecurity is in the bedrock of your company and grows with your business with minimal technical debt.</p> <a href="#" class="bg-white border-2 border-secondary-900 font-bold inline-block mb-12 px-6 py-2 rounded-bl-2xl rounded-br rounded-tl rounded-tr-2xl shadow text-primary-700 uppercase dark:bg-black dark:bg-opacity-35 dark:border-secondary-200 dark:shadow-secondary-700 dark:text-primary-300 hover:shadow-md hover:shadow-secondary-500 hover:text-green-300">Start Your Journey</a> 
+                <div class="block relative lg:space-x-0 mx-auto mb-20 px-4 lg:w-11/12 2xl:w-9/12"> 
+                    <div class="flex flex-wrap justify-center lg:justify-start -mx-4"> 
+                        <div class="lg:w-6/12"> 
+                            <div class="bg-gray-950 shadow shadow-black/35 p-2 border-primary-300 rounded-lg"> 
+                                <div class="mx-auto p-4 p-8 border border-black w-full box__inner retro-screen"> 
+                                    <div class="lg:text-left"> 
+                                        <div class="bg-secondary-500/10 bg-none mx-auto p-6 w-full cyber-shape"> 
+                                            <h2 class="mb-6 font-medium text-secondary-300">Do I really need it? We&apos;re just starting?</h2> 
+                                            <h3 class="font-bold text-primary-300 text-secondary-300 text-2xl lg:text-4xl uppercase">Yes, you need cybersecurity early in your startup journey.</h3>
+                                            <p class="text-base md:text-lg">Customers and future envestors demand security. That&apos;s where Zugcat steps in with lightweight, sustainable, and affordable <a href="#">cybersecurity solutions</a> that are built for growing businesses. We lay the secure foundation baseline when your business is small, so Cybersecurity is in the bedrock of your company and grows with your business with minimal technical debt.</p> <a href="#" class="inline-block shadow-none hover:shadow-lg mt-6 mb-3 p-2 border-2 border-secondary-600 hover:border-primary-500 text-base uppercase hover:text-primary-accent-300 btn-body">Start Your Journey</a> 
                                         </div>                                         
-                                    </div>                                     
+                                    </div>
                                 </div>                                 
                             </div>                             
                         </div>                         
                     </div>                     
                 </div>                 
             </section>
-            <div class="relative z-10" style="height:0;" data-pg-name="CyberSeperator">
-                <div class="relative w-full flex" style="height:0;">
-                    <div style="height: 64px; width: 100%; display: block; position: relative; top: -32px; background-image: url('assets/images/layout/seperator-cyber-purple.svg'); background-size:1300px 64px ; background-position: left center; background-repeat: repeat-x;"></div>
-                </div>
+            <div class="seperator-cyber-purple">
+                <hr/>
             </div>
-            <section class="gradient-secondary pb-24 pt-20 px-6 lg:px-12 lg:py-48" style="background-image: url('assets/images/bkg-seattle-street-hackers-are-coming.jpg'); background-size: cover;"> 
-                <div class="container mx-auto relative"> 
-                    <div class="border-2 border-secondary-600 p-2 rounded-bl-3xl rounded-br rounded-tl rounded-tr-3xl shadow-md dark:bg-opacity-90 dark:bg-primary-950/90 lg:pt-3">
-                        <div class="border-2 border-primary-500 overflow-hidden p-6 rounded-bl-3xl rounded-tr-3xl lg:p-12">
-                            <div class="bg-primary-950 flex flex-wrap items-center mb-6 overflow-hidden lg:mb-12">
-                                <div class="w-full lg:text-right lg:w-6/12"> 
-                                    <img src="assets/images/image-knight-petting-zugcat-seattle-alley.jpg" class="border-2 border-green-300 rounded-bl-3xl rounded-tr-3xl w-full dark:border-primary-300 dark:shadow-md dark:shadow-secondary-900">
+            <!-- Full Big Background (Quillion Journey)-->
+            <section class="bg-[url(/assets/images/bkg-seattle-street-hackers-are-coming.jpg)] bg-cover pb-24 pt-20 px-4 lg:py-48"> 
+                <div class="relative mx-auto lg:w-11/12 2xl:w-9/12 container"> 
+                    <div class="bg-gray-950/90 shadow-black/75 shadow-md p-2 border-2 border-gray-950 rounded-lg">
+                        <div class="lg:p-12 px-3 py-6 overflow-hidden cyber-shape">
+                            <div class="flex flex-wrap items-center bg-gray-950 mb-6 lg:mb-12 overflow-hidden">
+                                <div class="w-full lg:w-6/12 lg:text-right"> 
+                                    <img src="assets/images/image-knight-petting-zugcat-seattle-alley.jpg" class="shadow-md shadow-secondary-900 border-green-300 border-primary-300 w-full cyber-shape" alt="Quillion Knight Petting Zugcat">
                                 </div>
-                                <div class="w-full lg:pl-12 lg:w-6/12"> 
-                                    <h2 class="font-normal mb-6 dark:text-primary-300">What we offer</h2> 
-                                    <h3 class="dark:text-secondary-200 font-bold mb-6 text-4xl text-green-700 uppercase">Introducing QUILLON</h3> 
-                                    <p class="mb-6 md:text-lg">Zugcat provides the <a href="#">startup framework</a> for companies to keep themselves and their clients protected</p><a href="#" class="bg-white border-2 border-secondary-900 font-bold inline-block px-6 py-2 rounded-bl-2xl rounded-br rounded-tl rounded-tr-2xl shadow text-primary-700 uppercase dark:bg-black dark:bg-opacity-35 dark:border-secondary-200 dark:shadow-secondary-700 dark:text-primary-300 hover:shadow-md hover:shadow-secondary-500 hover:text-green-300">Start Your Journey</a> 
+                                <div class="relative lg:pl-12 w-full lg:w-6/12"> 
+                                    <h2 class="mb-6 font-normal text-secondary-300">What we offer</h2> 
+                                    <img src="assets/images/brand/quillon-logo.svg" width="400" height="auto" class="block mr-auto mb-4 ml-auto text-center" alt="Quillon Startup Framework"> 
+                                    <p class="mb-6 md:text-lg">Zugcat provides the <a href="#">startup framework</a> for companies to keep themselves and their clients protected</p>
+                                    <a href="#" class="inline-block hover:shadow-lg mt-4 mb-4 p-2 border-2 border-secondary-600 hover:border-primary-500 text-base uppercase hover:text-primary-accent-300 btn-body">Start Your Journey</a> 
                                 </div>
                             </div>
-                            <svg fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 637.04 23.53" class="mb-12 text-secondary-600 dark:text-secondary-300">
-                                <g " data-name="Layer 1">
+                            <svg fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 637.04 23.53" class="mb-12 text-primary-500">
+                                <g data-name="Layer 1">
                                     <g>
                                         <path d="M226.17,2.99H24.29c-3.57.5-8.01,1.43-12.9,3.23C6.76,7.92,2.95,9.94,0,11.77c2.87,1.85,6.67,3.95,11.39,5.68,4.95,1.81,9.41,2.68,12.9,3.1h201.88V2.99ZM211.36,14.28H31.82c-1.38,0-2.52-1.13-2.52-2.52s1.13-2.52,2.52-2.52h179.53c1.38,0,2.52,1.13,2.52,2.52s-1.13,2.52-2.52,2.52Z"/>
                                         <path d="M233.36,0h-1.71c-1.36,0-2.45,1.08-2.51,2.42v18.69c.05,1.34,1.15,2.42,2.51,2.42h1.71c1.37,0,2.48-1.09,2.51-2.45V2.45c-.03-1.36-1.14-2.45-2.51-2.45Z"/>
@@ -152,50 +158,50 @@
                                     </g>
                                 </g>
                             </svg>
-                            <h3 class="font-bold mb-6 text-4xl text-green-700 uppercase dark:text-secondary-200 lg:mb-12">The Quillon Journey</h3>
-                            <div class="gap-3 grid grid-cols-2 mb-6 rounded-br rounded-tl rounded-tr-2xl md:grid-cols-3 lg:flex-wrap lg:gap-6 lg:grid-cols-3 xl:grid-cols-6">
-                                <div class="flex-nowrap justify-center w-full"> 
-                                    <img src="assets/images/icons/icon-chess-piece.svg" class="mb-6">
-                                    <h4 class="block font-bold mb-2 text-primary-700 uppercase lg:text-2xl lg:text-center">Strategy</h4>
-                                    <p class="text-base md:inline-block">We work with you to tailor your needs to the industry standards of the emerging cybersecurity landscape. </p>
+                            <h3 class="mb-6 lg:mb-12 font-brand text-primary-300 text-4xl">The Quillon Journey</h3>
+                            <div class="lg:flex-wrap gap-6 lg:gap-6 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-6 mb-6">
+                                <div class="flex-nowrap justify-center"> 
+                                    <img src="assets/images/icons/icon-chess-piece.svg" class="mb-6" alt="Queen Chess Piece">
+                                    <h4 class="block mb-2 font-bold text-secondary-500 lg:text-2xl lg:text-center uppercase">Strategy</h4>
+                                    <p class="md:inline-block text-sm">We work with you to tailor your needs to the industry standards of the emerging cybersecurity landscape. </p>
                                 </div>
                                 <div class="w-full">
                                     <div xmlns="http://www.w3.org/2000/svg"> 
-                                        <img src="assets/images/icons/icon-scroll.svg" class="mb-6">
-                                        <h4 class="font-bold mb-2 text-primary-700 uppercase lg:text-2xl lg:text-center">Policies</h4> 
-                                        <p class="text-base">We provide pre-written and customizable policies based on the industry standards used by multibillion dollar companies. </p> 
+                                        <img src="assets/images/icons/icon-scroll.svg" class="mb-6" alt="Digital Scroll">
+                                        <h4 class="mb-2 font-bold text-secondary-500 lg:text-2xl lg:text-center uppercase">Policies</h4> 
+                                        <p class="text-sm">We provide pre-written and customizable policies based on the industry standards used by multibillion dollar companies. </p> 
                                     </div>
                                 </div>
                                 <div class="w-full">
                                     <div> 
-                                        <img class="mb-6" src="assets/images/icons/icon-knight-helmet.svg">
-                                        <h4 class="font-bold mb-2 text-primary-700 uppercase lg:text-2xl lg:text-center">Standards</h4> 
-                                        <p class="text-base">Processes turn the overwhelming landscape of cybersecurity into something manageable for employees of all technological levels.</p> 
+                                        <img class="mb-6" src="assets/images/icons/icon-knight-helmet.svg" alt="Knight Helmet">
+                                        <h4 class="mb-2 font-bold text-secondary-500 lg:text-2xl lg:text-center uppercase">Standards</h4> 
+                                        <p class="text-sm">Processes turn the overwhelming landscape of cybersecurity into something manageable for employees of all technological levels.</p> 
                                     </div>
                                 </div>
                                 <div class="w-full">
                                     <div>
-                                        <img src="assets/images/icons/icon-hammer.svg" class="mb-6"> 
-                                        <h4 class="font-bold mb-2 text-primary-700 uppercase lg:text-2xl lg:text-center">Tools</h4>
-                                        <p class="text-base">Processes turn the overwhelming landscape of cybersecurity into something manageable for employees of all technological levels. </p>
+                                        <img src="assets/images/icons/icon-hammer.svg" class="mb-6" alt="Hammer"> 
+                                        <h4 class="mb-2 font-bold text-secondary-500 lg:text-2xl lg:text-center uppercase">Tools</h4>
+                                        <p class="text-sm">Processes turn the overwhelming landscape of cybersecurity into something manageable for employees of all technological levels. </p>
                                     </div>
                                 </div>
                                 <div class="w-full">
                                     <div> 
-                                        <img class="mb-6" src="assets/images/icons/icon-shield.svg"> 
-                                        <h4 class="font-bold mb-2 text-primary-700 uppercase lg:text-2xl lg:text-center">Risk mitigation</h4> 
-                                        <p class="text-base">LIterative processes using our guidelines help identify and course correct before threats have a chance to hurt your business. </p> 
+                                        <img class="mb-6" src="assets/images/icons/icon-shield.svg" alt="Shield"> 
+                                        <h4 class="mb-2 font-bold text-secondary-500 lg:text-2xl lg:text-center uppercase">Risk mitigation</h4> 
+                                        <p class="text-sm">LIterative processes using our guidelines help identify and course correct before threats have a chance to hurt your business. </p> 
                                     </div>
                                 </div>
                                 <div class="w-full">
                                     <div> 
-                                        <img src="assets/images/icons/icon-swords-crossed.svg" class="mb-6"> 
-                                        <h4 class="font-bold mb-2 text-primary-700 uppercase lg:text-2xl lg:text-center">Training</h4> 
-                                        <p class="text-base">Plan and implement training to keep your employees up-to-date and aware of current security risks and prevent data breeches before they happen. </p> 
+                                        <img src="assets/images/icons/icon-swords.svg" class="mb-6" alt="Swords Crossing"> 
+                                        <h4 class="mb-2 font-bold text-secondary-500 lg:text-2xl lg:text-center uppercase">Training</h4> 
+                                        <p class="text-sm">Plan and implement training to keep your employees up-to-date and aware of current security risks and prevent data breeches before they happen. </p> 
                                     </div>
                                 </div>
                             </div>
-                            <svg fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 637.04 23.53" class="text-secondary-600 dark:text-secondary-300">
+                            <svg fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 637.04 23.53" class="text-primary-600">
                                 <g data-name="Layer 1">
                                     <g>
                                         <path d="M226.17,2.99H24.29c-3.57.5-8.01,1.43-12.9,3.23C6.76,7.92,2.95,9.94,0,11.77c2.87,1.85,6.67,3.95,11.39,5.68,4.95,1.81,9.41,2.68,12.9,3.1h201.88V2.99ZM211.36,14.28H31.82c-1.38,0-2.52-1.13-2.52-2.52s1.13-2.52,2.52-2.52h179.53c1.38,0,2.52,1.13,2.52,2.52s-1.13,2.52-2.52,2.52Z"/>
@@ -212,53 +218,54 @@
                     </div>                     
                 </div>                 
             </section>
-            <section class="banner-cta flex h-full justify-center overflow-hidden p-6 relative w-full"> 
-                <div class="container grid mx-auto px-4 relative"> 
-                    <h3 class="font-bold mb-6 text-3xl text-center text-green-200 uppercase lg:font-sans lg:text-4xl lg:uppercase">Get your cybersecurity Roadmap</h3><a href="#" class="button bg-green-200 border-t-2 font-bold inline-block mx-auto px-6 py-2 rounded-br-2xl rounded-tl-lg shadow-gray-900 shadow-md uppercase dark:border-2 dark:border-primary-600 dark:mix-blend-normal dark:shadow-md dark:text-cta-600 hover:bg-secondary-700 hover:border-green-300 hover:shadow-cta-300 hover:text-green-300">Request Now</a>
+            <!-- Banner, Call To Action-->
+            <section class="relative flex justify-center p-6 w-full h-full overflow-hidden banner-cta"> 
+                <div class="relative grid mx-auto px-4 container"> 
+                    <h3 class="mb-6 font-bold text-gray-950 text-3xl lg:text-4xl text-center uppercase lg:uppercase">Get Your Cybersecurity Roadmap</h3>
+                    <a href="#" class="inline-block bg-primary-600 hover:bg-green-500 hover:bg-linear-to-b from-cta-500 via-cta-500 shadow-gray-950/45 shadow-xs hover:shadow-gray-950/30 hover:shadow-md mx-auto px-6 py-2 border-2 border-cta-300 hover:border-2 hover:border-primary-600 rounded-full font-bold hover:text-black uppercase text-primary-accent-500 to-primary-accent-500 btn-glass">Request Now</a>
                 </div>                 
             </section>
-            <section class="gradient-secondary overflow-hidden pb-40 pt-24 px-6 relative lg:p-0"> 
-                <div class="block border-b-0 border-l-2 border-r-2 border-t-2 inset-0 overflow-hidden relative rounded-tl rounded-tr-3xl shadow-md shadow-secondary-500 dark:border-secondary-600 md:mx-auto md:w-full lg:absolute lg:border-0 lg:flex lg:h-full lg:mb-0 lg:rounded-none"> 
-                    <img src="assets/images/group-of-employees-having-fun.png" class="w-full lg:object-cover" alt="Group of coworkers hanging out after work">
+            <!-- 50/50 Big Background, Text Right Section (Shut Business Down)-->
+            <section class="relative lg:justify-items-center px-4 py-24 gradient-primary"> 
+                <div class="block lg:absolute relative inset-0 lg:flex shadow-md mb-8 lg:mb-0 border-2 border-primary-300 lg:border-0 rounded-lg rounded-tl w-full lg:h-full overflow-hidden"> 
+                    <img src="assets/images/people-taking-part-business-event.jpg" class="w-full h-full lg:object-cover" alt="Group of coworkers working on project">
                 </div>
-                <div class="container relative lg:mx-auto lg:px-10 lg:py-20 xl:py-48"> 
-                    <div class="flex flex-wrap lg:justify-end" style="display: flex;"> 
-                        <div class="md:w-full lg:w-6/12"> 
-                            <div class="border-2 p-2 rounded-bl-3xl rounded-br rounded-t-none shadow-secondary-500 dark:bg-opacity-90 dark:bg-primary-950/90 dark:border-secondary-600 lg:rounded-tl lg:rounded-tr-3xl lg:text-left"> 
-                                <div class="mx-auto w-full"> 
-                                    <div class="bg-opacity-90 border-2 overflow-hidden retro-screen rounded-bl-2xl rounded-br rounded-tl rounded-tr dark:border-primary-600 lg:rounded-tr-2xl lg:text-left"> 
-                                        <div class="bg-none mx-auto p-6 w-full"> 
-                                            <h2 class="font-medium mb-6 dark:text-primary-300 lg:text-secondary-300">Can you guess who?</h2> 
-                                            <h3 class="font-bold mb-6 text-2xl text-primary-300 uppercase dark:text-secondary-200 lg:text-4xl">ONE OF THESE EMPLOYEES WILL shut your business DOWN for the next 21 DAys.</h3>
-                                            <p class="mb-12 text-gray-100 md:text-lg">Zugcat&apos;s framework is designed to identify potential risks and catch them before they become a catastrophic problem.</p><a href="#" class="bg-white border-2 border-secondary-900 font-bold inline-block mb-12 px-6 py-2 rounded-bl-2xl rounded-br rounded-tl rounded-tr-2xl shadow text-primary-700 uppercase dark:bg-black dark:bg-opacity-35 dark:border-secondary-200 dark:shadow-secondary-700 dark:text-primary-300 hover:shadow-md hover:shadow-secondary-500 hover:text-green-300">Find out more</a> 
-                                        </div>
+                <div class="block relative lg:space-x-0 mx-auto lg:w-11/12 2xl:w-9/12"> 
+                    <div class="flex flex-wrap lg:justify-end"> 
+                        <div class="lg:w-6/12"> 
+                            <div class="bg-gray-950 shadow shadow-black/35 p-2 border-primary-300 rounded-lg"> 
+                                <div class="mx-auto p-4 p-8 border border-black w-full box__inner retro-screen"> 
+                                    <div class="bg-secondary-500/10 bg-none mx-auto p-6 w-full cyber-shape"> 
+                                        <h2 class="mb-6 font-medium text-secondary-300">Can you guess who?</h2> 
+                                        <h3 class="font-bold text-primary-300 text-2xl lg:text-4xl uppercase">ONE OF THESE EMPLOYEES WILL shut your business DOWN In the next 21 DAys.</h3>
+                                        <p class="text-gray-100 md:text-lg">Zugcat&apos;s framework is designed to identify potential risks and catch them before they become a catastrophic problem.</p>
+                                        <a href="#" class="inline-block shadow-none hover:shadow-lg mt-4 mb-4 p-2 border-2 border-secondary-600 hover:border-primary-500 text-base uppercase hover:text-primary-accent-300 btn-body">Find Out More</a> 
                                     </div>                                     
                                 </div>                                 
-                            </div>                             
+                            </div>
                         </div>                         
                     </div>                     
                 </div>
-                <div class="container mx-auto px-4 relative"> 
-                    <div class="flex flex-wrap -mx-4  items-center mb-4"> 
+                <div class="relative mx-auto px-4 container"> 
+                    <div class="flex flex-wrap items-center -mx-4 mb-4"> 
 </div>                     
                 </div>                 
             </section>
-            <div class="relative z-10" style="height:0;" data-pg-name="CyberSeperator">
-                <div class="relative w-full flex" style="height:0;">
-                    <div style="height: 60px; width: 100%; display: block; position: relative; top: -30px; background-image: url('assets/images/layout/seperator-cyber-purple.svg'); background-size:1300px 60px ; background-position: 420px center; background-repeat: repeat-x;transform: rotate(.5turn);"></div>
-                </div>
+            <div class="seperator-cyber-purple">
+                <hr/>
             </div>
-            <section class="gradient-primary px-6 py-40 lg:px-12 lg:py-24"> 
-                <div class="container mx-auto relative"> 
+            <!-- 50/50 Text Right Section-->
+            <section class="px-6 lg:px-12 xl:px-0 py-40 lg:py-24 gradient-primary"> 
+                <div class="relative mx-auto lg:w-11/12 2xl:w-9/12 container"> 
                     <div class="flex flex-wrap items-center"> 
                         <div class="mb-12 w-full lg:w-6/12"> 
-                            <img src="assets/images/man-in-suite.jpg" class="border-2 border-green-300 rounded-bl-3xl rounded-tr-3xl w-full dark:border-primary-300 dark:shadow-md dark:shadow-secondary-900" alt="..." width="100" height="800"/> 
+                            <img src="assets/images/101455.jpg" class="shadow-md shadow-secondary-900 border-green-300 border-primary-300 w-full cyber-shape" width="100" height="800" alt="Business owner working on computer"/> 
                         </div>                         
-                        <div class="w-full lg:pl-12 lg:w-6/12"> 
-                            <h2 class="font-medium mb-6 text-primary-800 dark:text-primary-300">Who Are We</h2>
-                            <h3 class="font-bold mb-6 text-3xl text-secondary-500 uppercase dark:text-orange-300">The cybersecurity partner you&apos;ve been looking for</h3>
+                        <div class="lg:pl-12 w-full lg:w-6/12"> 
+                            <h2 class="mb-6 font-medium text-primary-300">Who Are We</h2>
+                            <h3 class="mb-6 font-bold text-secondary-300 text-3xl uppercase">The cybersecurity partner you&apos;ve been looking for</h3>
                             <img src="assets/images/layout/divider-sword.svg" class="mb-6">
-                            <p class="mb-6 md:text-lg">60% of small companies go out of business within six months of falling victim to a data breach or cyber attack. Rarely is this reported in the news, but a business dies.</p>
+                            <p class="mb-6 md:text-lg">60% of small companies go out of business within six months of falling victim to a data breach or <a href="#">cyber attack</a>. Rarely is this reported in the news, but a business dies.</p>
                             <ul>
                                 <li>List item</li>
                                 <li>List item</li>
@@ -269,78 +276,78 @@
                                 <li>List item</li>
                                 <li>List item</li>
                             </ol>
-                            <a href="#" class="bg-white border-2 border-secondary-900 font-bold inline-block px-6 py-2 rounded-bl-2xl rounded-br rounded-tl rounded-tr-2xl shadow text-primary-700 uppercase dark:bg-black dark:bg-opacity-35 dark:border-secondary-200 dark:shadow-secondary-700 dark:text-primary-300 hover:shadow-md hover:shadow-secondary-500 hover:text-green-300">Read More</a>
+                            <a href="#" class="inline-block shadow-none hover:shadow-lg mt-4 mb-4 p-2 border-2 border-secondary-600 hover:border-primary-500 text-secondary-600 text-base uppercase hover:text-primary-accent-300 btn-body">Read More</a>
                         </div>                         
                     </div>                     
                 </div>                 
             </section>
-            <div class="relative z-10" style="height:0;" data-pg-name="CyberSeperator">
-                <div class="relative w-full flex" style="height:0;">
-                    <div style="height: 64px; width: 100%; display: block; position: relative; top: -32px; background-image: url('assets/images/layout/seperator-cyber-metal.svg'); background-size:1300px 64px ; background-position: left center; background-repeat: repeat-x;"></div>
-                </div>
+            <div class="seperator-cyber-purple">
+                <hr/>
             </div>
-            <section class="bg-center bg-cover bg-secondary-500 px-6 py-48 text-center dark:bg-dPruple-900 lg:py-48" style="background-image: url('assets/images/bkg-seattle-street-hackers-are-coming.jpg'); background-position: center center; background-size: cover;"> 
-                <div class="container px-4 relative md:mx-auto lg:mx-auto lg:px-0"> 
-                    <div class="md:mx-auto md:w-8/12 lg:content-center lg:flex lg:items-center lg:justify-center lg:w-full"> 
-                        <div class="bg-opacity-90 bg-primary-950 border-2 border-primary-500 p-3 rounded-bl-3xl rounded-br rounded-tl rounded-tr-3xl dark:bg-opacity-90 dark:bg-primary-950/90 dark:border-secondary-600 lg:flex lg:w-9/12"> 
-                            <div class="border-2 dark:bg-opacity-90 dark:border-primary-500 lg:flex lg:w-full overflow-hidden relative retro-screen rounded-bl-xl rounded-br rounded-tl rounded-tr-xl shadow-md shadow-secondary-500">
-                                <img src="assets/images/Placeholder%20-%20Quote%20Section.jpg" class="relative retro-screen rounded-bl-none shadow-md shadow-orange-900 dark:w-full lg:aspect-square lg:h-full lg:max-w-72 lg:object-cover lg:object-top lg:overflow-hidden lg:w-auto">
-                                <blockquote class="bg-opacity-90 flex flex-wrap items-center mx-auto p-6 rounded-br rounded-tr-xl w-full lg:content-center lg:flex-col lg:flex-nowrap lg:justify-center">
-                                    <svg fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 637.04 23.53" class="mb-12 text-primary-300">
-                                        <g data-name="Layer 1">
-                                            <g>
-                                                <path d="M226.17,2.99H24.29c-3.57.5-8.01,1.43-12.9,3.23C6.76,7.92,2.95,9.94,0,11.77c2.87,1.85,6.67,3.95,11.39,5.68,4.95,1.81,9.41,2.68,12.9,3.1h201.88V2.99ZM211.36,14.28H31.82c-1.38,0-2.52-1.13-2.52-2.52s1.13-2.52,2.52-2.52h179.53c1.38,0,2.52,1.13,2.52,2.52s-1.13,2.52-2.52,2.52Z"/>
-                                                <path d="M233.36,0h-1.71c-1.36,0-2.45,1.08-2.51,2.42v18.69c.05,1.34,1.15,2.42,2.51,2.42h1.71c1.37,0,2.48-1.09,2.51-2.45V2.45c-.03-1.36-1.14-2.45-2.51-2.45Z"/>
-                                                <path d="M305.9,10.39l3.5-4.5h-70.55v11.74h69.74l-2.69-3.69c-.98-.98-.98-2.58,0-3.56Z"/>
-                                                <path d="M625.65,6.22c-4.9-1.8-9.33-2.73-12.9-3.23h-201.87v17.55h201.87c3.49-.42,7.96-1.28,12.9-3.1,4.71-1.73,8.52-3.83,11.39-5.68-2.95-1.83-6.76-3.85-11.39-5.55ZM605.22,14.28h-179.53c-1.38,0-2.52-1.13-2.52-2.52s1.13-2.52,2.52-2.52h179.53c1.38,0,2.52,1.13,2.52,2.52s-1.13,2.52-2.52,2.52Z"/>
-                                                <path d="M407.91,2.99h0v-.48c0-1.39-1.13-2.52-2.52-2.52h-1.71c-1.35,0-2.43,1.06-2.5,2.39v18.76c.07,1.33,1.16,2.39,2.5,2.39h1.71c1.39,0,2.52-1.13,2.52-2.52v-.48h0V2.99Z"/>
-                                                <path d="M329.03,17.64h69.17V5.9h-69.98l3.5,4.5c.98.98.98,2.58,0,3.56l-2.69,3.69Z"/>
-                                                <path d="M327.49,10.18l-7.39-7.39c-.87-.87-2.29-.87-3.16,0l-7.39,7.39c-.87.87-.87,2.29,0,3.16l7.39,7.39c.87.87,2.29.87,3.16,0l7.39-7.39c.87-.87.87-2.29,0-3.16ZM324.29,13.35l-4.19,4.19c-.87.87-2.29.87-3.16,0l-4.19-4.19c-.87-.87-.87-2.29,0-3.16l4.19-4.19c.87-.87,2.29-.87,3.16,0l4.19,4.19c.87.87.87,2.29,0,3.16Z"/>
-                                            </g>
+            <!-- Blockquote -->
+            <section class="bg-[url(/assets/images/bkg-seattle-street-hackers-are-coming.jpg)] bg-center bg-cover bg-secondary-500 px-4 py-24 text-center lg:py-48"> 
+                <div class="relative flex flex-nowrap justify-center md:mx-auto lg:mx-auto lg:px-0 lg:w-11/12 2xl:w-9/12"> 
+                    <div class="bg-gray-950 shadow shadow-black/35 p-2 border-primary-300 rounded-lg w-full xl:w-9/12"> 
+                        <div class="relative flex flex-wrap sm:flex-nowrap gap-6 bg-gray-950/90 shadow-md shadow-secondary-500 p-8 md:w-full overflow-hidden retro-screen">
+                            <img src="assets/images/Placeholder%20-%20Quote%20Section.jpg" class="relative shadow-md shadow-orange-900 rounded-bl-none w-full sm:max-w-72 h-auto max-h-90 sm:max-h-auto object-cover object-top overflow-hidden cyber-shape retro-screen" alt="Not Saburo Arasaka">
+                            <blockquote class="flex lg:flex-col flex-wrap lg:flex-nowrap lg:justify-center items-center lg:content-center bg-secondary-500/10 bg-opacity-90 mx-auto p-3 md:p-6 w-full cyber-shape">
+                                <svg fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 637.04 23.53" class="mb-6 text-secondary-300 cyber-text">
+                                    <g data-name="Layer 1">
+                                        <g>
+                                            <path d="M226.17,2.99H24.29c-3.57.5-8.01,1.43-12.9,3.23C6.76,7.92,2.95,9.94,0,11.77c2.87,1.85,6.67,3.95,11.39,5.68,4.95,1.81,9.41,2.68,12.9,3.1h201.88V2.99ZM211.36,14.28H31.82c-1.38,0-2.52-1.13-2.52-2.52s1.13-2.52,2.52-2.52h179.53c1.38,0,2.52,1.13,2.52,2.52s-1.13,2.52-2.52,2.52Z"/>
+                                            <path d="M233.36,0h-1.71c-1.36,0-2.45,1.08-2.51,2.42v18.69c.05,1.34,1.15,2.42,2.51,2.42h1.71c1.37,0,2.48-1.09,2.51-2.45V2.45c-.03-1.36-1.14-2.45-2.51-2.45Z"/>
+                                            <path d="M305.9,10.39l3.5-4.5h-70.55v11.74h69.74l-2.69-3.69c-.98-.98-.98-2.58,0-3.56Z"/>
+                                            <path d="M625.65,6.22c-4.9-1.8-9.33-2.73-12.9-3.23h-201.87v17.55h201.87c3.49-.42,7.96-1.28,12.9-3.1,4.71-1.73,8.52-3.83,11.39-5.68-2.95-1.83-6.76-3.85-11.39-5.55ZM605.22,14.28h-179.53c-1.38,0-2.52-1.13-2.52-2.52s1.13-2.52,2.52-2.52h179.53c1.38,0,2.52,1.13,2.52,2.52s-1.13,2.52-2.52,2.52Z"/>
+                                            <path d="M407.91,2.99h0v-.48c0-1.39-1.13-2.52-2.52-2.52h-1.71c-1.35,0-2.43,1.06-2.5,2.39v18.76c.07,1.33,1.16,2.39,2.5,2.39h1.71c1.39,0,2.52-1.13,2.52-2.52v-.48h0V2.99Z"/>
+                                            <path d="M329.03,17.64h69.17V5.9h-69.98l3.5,4.5c.98.98.98,2.58,0,3.56l-2.69,3.69Z"/>
+                                            <path d="M327.49,10.18l-7.39-7.39c-.87-.87-2.29-.87-3.16,0l-7.39,7.39c-.87.87-.87,2.29,0,3.16l7.39,7.39c.87.87,2.29.87,3.16,0l7.39-7.39c.87-.87.87-2.29,0-3.16ZM324.29,13.35l-4.19,4.19c-.87.87-2.29.87-3.16,0l-4.19-4.19c-.87-.87-.87-2.29,0-3.16l4.19-4.19c.87-.87,2.29-.87,3.16,0l4.19,4.19c.87.87.87,2.29,0,3.16Z"/>
                                         </g>
-                                    </svg>
-                                    <p class="mb-12 text-2xl text-gray-100 text-left w-full">I have found that most people lie, most often deceiving themselves. Not so the dead... The dead are so very, very loud</p>
-                                    <svg fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 637.04 23.53" class="mb-3 text-primary-300">
-                                        <g data-name="Layer 1">
-                                            <g>
-                                                <path d="M226.17,2.99H24.29c-3.57.5-8.01,1.43-12.9,3.23C6.76,7.92,2.95,9.94,0,11.77c2.87,1.85,6.67,3.95,11.39,5.68,4.95,1.81,9.41,2.68,12.9,3.1h201.88V2.99ZM211.36,14.28H31.82c-1.38,0-2.52-1.13-2.52-2.52s1.13-2.52,2.52-2.52h179.53c1.38,0,2.52,1.13,2.52,2.52s-1.13,2.52-2.52,2.52Z"/>
-                                                <path d="M233.36,0h-1.71c-1.36,0-2.45,1.08-2.51,2.42v18.69c.05,1.34,1.15,2.42,2.51,2.42h1.71c1.37,0,2.48-1.09,2.51-2.45V2.45c-.03-1.36-1.14-2.45-2.51-2.45Z"/>
-                                                <path d="M305.9,10.39l3.5-4.5h-70.55v11.74h69.74l-2.69-3.69c-.98-.98-.98-2.58,0-3.56Z"/>
-                                                <path d="M625.65,6.22c-4.9-1.8-9.33-2.73-12.9-3.23h-201.87v17.55h201.87c3.49-.42,7.96-1.28,12.9-3.1,4.71-1.73,8.52-3.83,11.39-5.68-2.95-1.83-6.76-3.85-11.39-5.55ZM605.22,14.28h-179.53c-1.38,0-2.52-1.13-2.52-2.52s1.13-2.52,2.52-2.52h179.53c1.38,0,2.52,1.13,2.52,2.52s-1.13,2.52-2.52,2.52Z"/>
-                                                <path d="M407.91,2.99h0v-.48c0-1.39-1.13-2.52-2.52-2.52h-1.71c-1.35,0-2.43,1.06-2.5,2.39v18.76c.07,1.33,1.16,2.39,2.5,2.39h1.71c1.39,0,2.52-1.13,2.52-2.52v-.48h0V2.99Z"/>
-                                                <path d="M329.03,17.64h69.17V5.9h-69.98l3.5,4.5c.98.98.98,2.58,0,3.56l-2.69,3.69Z"/>
-                                                <path d="M327.49,10.18l-7.39-7.39c-.87-.87-2.29-.87-3.16,0l-7.39,7.39c-.87.87-.87,2.29,0,3.16l7.39,7.39c.87.87,2.29.87,3.16,0l7.39-7.39c.87-.87.87-2.29,0-3.16ZM324.29,13.35l-4.19,4.19c-.87.87-2.29.87-3.16,0l-4.19-4.19c-.87-.87-.87-2.29,0-3.16l4.19-4.19c.87-.87,2.29-.87,3.16,0l4.19,4.19c.87.87.87,2.29,0,3.16Z"/>
-                                            </g>
+                                    </g>
+                                </svg>
+                                <p class="mb-12 w-full text-gray-100 text-lg md:text-2xl text-left">I have found that most people lie, most often deceiving themselves. Not so the dead... The dead are so very, very loud</p>
+                                <svg fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 637.04 23.53" class="mt-3 mb-6 text-secondary-300 cyber-text">
+                                    <g data-name="Layer 1">
+                                        <g>
+                                            <path d="M226.17,2.99H24.29c-3.57.5-8.01,1.43-12.9,3.23C6.76,7.92,2.95,9.94,0,11.77c2.87,1.85,6.67,3.95,11.39,5.68,4.95,1.81,9.41,2.68,12.9,3.1h201.88V2.99ZM211.36,14.28H31.82c-1.38,0-2.52-1.13-2.52-2.52s1.13-2.52,2.52-2.52h179.53c1.38,0,2.52,1.13,2.52,2.52s-1.13,2.52-2.52,2.52Z"/>
+                                            <path d="M233.36,0h-1.71c-1.36,0-2.45,1.08-2.51,2.42v18.69c.05,1.34,1.15,2.42,2.51,2.42h1.71c1.37,0,2.48-1.09,2.51-2.45V2.45c-.03-1.36-1.14-2.45-2.51-2.45Z"/>
+                                            <path d="M305.9,10.39l3.5-4.5h-70.55v11.74h69.74l-2.69-3.69c-.98-.98-.98-2.58,0-3.56Z"/>
+                                            <path d="M625.65,6.22c-4.9-1.8-9.33-2.73-12.9-3.23h-201.87v17.55h201.87c3.49-.42,7.96-1.28,12.9-3.1,4.71-1.73,8.52-3.83,11.39-5.68-2.95-1.83-6.76-3.85-11.39-5.55ZM605.22,14.28h-179.53c-1.38,0-2.52-1.13-2.52-2.52s1.13-2.52,2.52-2.52h179.53c1.38,0,2.52,1.13,2.52,2.52s-1.13,2.52-2.52,2.52Z"/>
+                                            <path d="M407.91,2.99h0v-.48c0-1.39-1.13-2.52-2.52-2.52h-1.71c-1.35,0-2.43,1.06-2.5,2.39v18.76c.07,1.33,1.16,2.39,2.5,2.39h1.71c1.39,0,2.52-1.13,2.52-2.52v-.48h0V2.99Z"/>
+                                            <path d="M329.03,17.64h69.17V5.9h-69.98l3.5,4.5c.98.98.98,2.58,0,3.56l-2.69,3.69Z"/>
+                                            <path d="M327.49,10.18l-7.39-7.39c-.87-.87-2.29-.87-3.16,0l-7.39,7.39c-.87.87-.87,2.29,0,3.16l7.39,7.39c.87.87,2.29.87,3.16,0l7.39-7.39c.87-.87.87-2.29,0-3.16ZM324.29,13.35l-4.19,4.19c-.87.87-2.29.87-3.16,0l-4.19-4.19c-.87-.87-.87-2.29,0-3.16l4.19-4.19c.87-.87,2.29-.87,3.16,0l4.19,4.19c.87.87.87,2.29,0,3.16Z"/>
                                         </g>
-                                    </svg>
-                                    <br/><cite class="font-bold font-sans not-italic text-2xl text-green-300 uppercase w-full dark:text-secondary-300">Saburo Arasaka</cite>
-                                    <span class="font-light text-base w-full dark:text-primary-500">Arasaka, CEO</span>
-                                </blockquote>
-                            </div>                             
+                                    </g>
+                                </svg>
+                                <cite class="w-full font-sans font-bold text-primary-300 text-2xl not-italic uppercase">Saburo Arasaka</cite>
+                                <span class="w-full font-light text-base">Arasaka, CEO</span>
+                            </blockquote>
                         </div>                         
                     </div>                     
                 </div>                 
             </section>
-            <section class="banner-cta flex h-full justify-center overflow-hidden p-6 relative w-full"> 
-                <div class="container grid mx-auto px-4 relative"> 
-                    <h3 class="font-bold mb-6 text-3xl text-center text-green-200 uppercase lg:font-sans lg:text-4xl lg:uppercase">Get your cybersecurity Roadmap</h3><a href="#" class="bg-green-200 border-t-2 font-bold inline-block mx-auto px-6 py-2 rounded-br-2xl rounded-tl-lg shadow text-cta-600 uppercase dark:border-2 dark:border-primary-600 dark:shadow-primary-300 hover:bg-secondary-700 hover:border-green-300 hover:shadow-cta-200 hover:shadow-md hover:text-green-300">Request Now</a>
+            <!-- Banner Call To Action-->
+            <section class="relative flex justify-center p-6 w-full h-full overflow-hidden banner-cta"> 
+                <div class="relative grid mx-auto px-4 container"> 
+                    <h3 class="mb-6 font-bold text-gray-950 text-3xl lg:text-4xl text-center uppercase lg:uppercase">Get Your Cybersecurity Roadmap</h3>
+                    <a href="#" class="inline-block bg-primary-600 hover:bg-green-500 hover:bg-linear-to-b from-cta-500 via-cta-500 shadow-gray-950/45 shadow-xs hover:shadow-gray-950/30 hover:shadow-md mx-auto px-6 py-2 border-2 border-cta-300 hover:border-2 hover:border-primary-600 rounded-full font-bold hover:text-black uppercase text-primary-accent-500 to-primary-accent-500 btn-glass">Request Now</a>
                 </div>                 
             </section>
-            <section class="gradient-secondary px-6 py-24 lg:pb-24 lg:px-12"> 
+            <!-- Card Testimonials -->
+            <section class="px-4 lg:px-12 xl:px-0 py-24 lg:pb-38 gradient-primary"> 
                 <div class="mb-6 lg:text-center"> 
-                    <h2 class="font-normal mb-6 text-primary-300 dark:text-primary-300">Testimonials</h2>
-                    <h3 class="font-bold font-sans mb-12 text-3xl text-secondary-200 uppercase dark:text-secondary-200">Small Business Cybersecurity you can trust</h3> 
+                    <h2 class="mb-6 text-secondary-300">Testimonials</h2>
+                    <h3 class="mb-12 font-brand font-bold text-primary-200 text-4xl">Small Business Cybersecurity You Can Trust</h3> 
                 </div>
-                <div class="container mx-auto relative"> 
-                    <div class="gap-12 grid grid-cols-1 lg:grid-cols-3"> 
-                        <div class="w-full"> 
-                            <div class="bg-white border-2 border-secondary-500 gap-6 grid grid-cols-1 p-6 retro-screen rounded-bl-3xl rounded-br rounded-tl rounded-tr-3xl shadow-md dark:bg-opacity-25 dark:bg-primary-950/90 dark:border-secondary-300 dark:shadow-orange-900 sm:grid-cols-2 lg:grid-cols-1"> 
-                                <div class="aspect-square border-2 border-primary-300 flex justify-center max-h-80 overflow-hidden relative rounded-bl-2xl rounded-br rounded-tl rounded-tr-2xl w-full">
-                                    <img src="assets/images/placeholder-testimonial.webp" class="relative retro-screen rounded-bl-xl shadow-md shadow-orange-900 dark:w-full lg:aspect-square lg:h-full lg:max-w-72 lg:object-cover lg:object-top lg:overflow-hidden lg:w-auto">
+                <div class="relative mx-auto lg:w-11/12 2xl:w-9/12"> 
+                    <div class="justify-self-center gap-12 grid grid-cols-1 lg:grid-cols-3 max-w-100 lg:max-w-full"> 
+                        <div class="bg-gray-950 shadow shadow-black/35 p-2 border-primary-300 rounded-lg">
+                            <div class="relative flex flex-wrap gap-6 bg-gray-950 mx-auto p-4 p-8 border border-black w-full box__inner retro-screen"> 
+                                <div class="relative flex justify-center border-2 border-primary-300 w-full h-fit aspect-square overflow-hidden cyber-shape img-cyberify retro">
+                                    <img src="https://mockmind-api.uifaces.co/content/human/196.jpg">
                                 </div>
                                 <div> 
                                     <q class="inline-block mb-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus pulvinar faucibus neque, nec rhoncus nunc ultrices sit amet. Aenean elementum, erat at aliquet hendrerit, elit nisl posuere tortor.</q>
-                                    <svg fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 637.04 23.53" class="mb-3 text-secondary-600 dark:text-secondary-300">
+                                    <svg fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 637.04 23.53" class="mb-3 text-secondary-300 cyber-text">
                                         <g data-name="Layer 1">
                                             <g>
                                                 <path d="M226.17,2.99H24.29c-3.57.5-8.01,1.43-12.9,3.23C6.76,7.92,2.95,9.94,0,11.77c2.87,1.85,6.67,3.95,11.39,5.68,4.95,1.81,9.41,2.68,12.9,3.1h201.88V2.99ZM211.36,14.28H31.82c-1.38,0-2.52-1.13-2.52-2.52s1.13-2.52,2.52-2.52h179.53c1.38,0,2.52,1.13,2.52,2.52s-1.13,2.52-2.52,2.52Z"/>
@@ -353,18 +360,18 @@
                                             </g>
                                         </g>
                                     </svg>
-                                    <h3 class="font-bold text-2xl text-center text-primary-700 uppercase dark:text-primary-300">Dianne R.</h3> 
+                                    <h3 class="font-bold text-primary-300 text-2xl text-center uppercase">First L.</h3> 
                                 </div>                                 
-                            </div>                             
+                            </div>
                         </div>
-                        <div class="w-full"> 
-                            <div class="bg-white border-2 border-secondary-500 gap-6 grid grid-cols-1 p-6 retro-screen rounded-bl-3xl rounded-br rounded-tl rounded-tr-3xl shadow-md shadow-primary-500 dark:bg-opacity-25 dark:bg-primary-950/90 dark:border-secondary-300 dark:shadow-orange-900 sm:grid-cols-2 lg:grid-cols-1"> 
-                                <div class="aspect-square border-2 border-primary-300 flex justify-center max-h-80 overflow-hidden relative rounded-bl-2xl rounded-br rounded-tl rounded-tr-2xl w-full">
-                                    <img src="assets/images/placeholder-testimonial.webp" class="relative retro-screen rounded-bl-xl shadow-md shadow-orange-900 dark:w-full lg:aspect-square lg:h-full lg:max-w-72 lg:object-cover lg:object-top lg:overflow-hidden lg:w-auto">
-                                </div>                                 
+                        <div class="bg-gray-950 shadow-black/35 shadow-xs p-2 border-primary-300 rounded-lg">
+                            <div class="flex flex-wrap gap-6 bg-gray-950 mx-auto p-4 p-8 border border-black w-full box__inner retro-screen"> 
+                                <div class="relative flex justify-center border-2 border-primary-300 w-full h-fit aspect-square overflow-hidden cyber-shape img-cyberify">
+                                    <img src="https://mockmind-api.uifaces.co/content/human/209.jpg">
+                                </div>
                                 <div> 
                                     <q class="inline-block mb-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus pulvinar faucibus neque, nec rhoncus nunc ultrices sit amet. Aenean elementum, erat at aliquet hendrerit, elit nisl posuere tortor.</q>
-                                    <svg fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 637.04 23.53" class="mb-3 text-secondary-600 dark:text-secondary-300">
+                                    <svg fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 637.04 23.53" class="mb-3 text-secondary-300 cyber-text">
                                         <g data-name="Layer 1">
                                             <g>
                                                 <path d="M226.17,2.99H24.29c-3.57.5-8.01,1.43-12.9,3.23C6.76,7.92,2.95,9.94,0,11.77c2.87,1.85,6.67,3.95,11.39,5.68,4.95,1.81,9.41,2.68,12.9,3.1h201.88V2.99ZM211.36,14.28H31.82c-1.38,0-2.52-1.13-2.52-2.52s1.13-2.52,2.52-2.52h179.53c1.38,0,2.52,1.13,2.52,2.52s-1.13,2.52-2.52,2.52Z"/>
@@ -377,18 +384,18 @@
                                             </g>
                                         </g>
                                     </svg>
-                                    <h3 class="font-bold text-2xl text-center text-primary-700 uppercase dark:text-primary-300">Kathryn M.</h3> 
+                                    <h3 class="font-bold text-primary-300 text-2xl text-center uppercase">First L.</h3> 
                                 </div>                                 
-                            </div>                             
+                            </div>
                         </div>
-                        <div class="w-full"> 
-                            <div class="bg-white border-2 border-secondary-500 gap-6 grid grid-cols-1 p-6 retro-screen rounded-bl-3xl rounded-br rounded-tl rounded-tr-3xl shadow-md shadow-primary-500 dark:bg-opacity-25 dark:bg-primary-950/90 dark:border-secondary-300 dark:shadow-orange-900 sm:grid-cols-2 lg:grid-cols-1"> 
-                                <div class="aspect-square border-2 border-primary-300 flex justify-center max-h-80 overflow-hidden relative rounded-bl-2xl rounded-br rounded-tl rounded-tr-2xl w-full">
-                                    <img src="assets/images/placeholder-testimonial.webp" class="relative retro-screen rounded-bl-xl shadow-md shadow-orange-900 dark:w-full lg:aspect-square lg:h-full lg:max-w-72 lg:object-cover lg:object-top lg:overflow-hidden lg:w-auto">
-                                </div>                                 
+                        <div class="bg-gray-950 shadow-black/35 shadow-xs p-2 border-primary-300 rounded-lg">
+                            <div class="flex flex-wrap gap-6 bg-gray-950 mx-auto p-4 p-8 border border-black w-full box__inner retro-screen"> 
+                                <div class="relative flex justify-center border-2 border-primary-300 w-full h-fit aspect-square overflow-hidden cyber-shape img-cyberify">
+                                    <img src="https://mockmind-api.uifaces.co/content/human/222.jpg">
+                                </div>
                                 <div> 
                                     <q class="inline-block mb-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus pulvinar faucibus neque, nec rhoncus nunc ultrices sit amet. Aenean elementum, erat at aliquet hendrerit, elit nisl posuere tortor.</q>
-                                    <svg fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 637.04 23.53" class="mb-3 mt-6 text-secondary-600 dark:text-secondary-300">
+                                    <svg fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 637.04 23.53" class="mb-3 text-secondary-300 cyber-text">
                                         <g data-name="Layer 1">
                                             <g>
                                                 <path d="M226.17,2.99H24.29c-3.57.5-8.01,1.43-12.9,3.23C6.76,7.92,2.95,9.94,0,11.77c2.87,1.85,6.67,3.95,11.39,5.68,4.95,1.81,9.41,2.68,12.9,3.1h201.88V2.99ZM211.36,14.28H31.82c-1.38,0-2.52-1.13-2.52-2.52s1.13-2.52,2.52-2.52h179.53c1.38,0,2.52,1.13,2.52,2.52s-1.13,2.52-2.52,2.52Z"/>
@@ -401,123 +408,127 @@
                                             </g>
                                         </g>
                                     </svg>
-                                    <h3 class="font-bold text-2xl text-center text-primary-700 uppercase dark:text-primary-300">Darrell S.</h3> 
+                                    <h3 class="font-bold text-primary-300 text-2xl text-center uppercase">First L.</h3> 
                                 </div>                                 
-                            </div>                             
+                            </div>
                         </div>                         
                     </div>                     
                 </div>                 
             </section>
-            <div class="relative z-10" style="height:0;" data-pg-name="CyberSeperator">
-                <div class="relative w-full flex" style="height:0;">
-                    <div style="height: 64px; width: 100%; display: block; position: relative; top: -32px; background-image: url('assets/images/layout/seperator-cyber-purple.svg'); background-size:1300px 64px ; background-position: left center; background-repeat: repeat-x;"></div>
-                </div>
+            <div class="seperator-cyber-purple">
+                <hr/>
             </div>
-            <section class="gradient-secondary pb-24 pt-20 px-6 lg:pb-32 lg:px-12"> 
-                <div class="container mx-auto relative"> 
+            <!-- Card Blog -->
+            <section class="px-6 lg:px-12 pt-20 pb-24 lg:pb-32 gradient-primary"> 
+                <div class="relative mx-auto container"> 
                     <div class="mb-6 lg:text-center"> 
-                        <h2 class="font-normal mb-6 text-primary-800 dark:text-primary-300">Cybersecurity Blog &amp; Resources</h2>
-                        <h3 class="font-bold font-sans mb-12 text-3xl text-secondary-500 uppercase dark:text-secondary-200">Cybersecurity Information &amp; Tips</h3> 
+                        <h2 class="mb-6 font-normal text-secondary-300">Cybersecurity Blog &amp; Resources</h2>
+                        <h3 class="mb-12 font-brand font-bold text-primary-200 text-4xl">Cybersecurity Information &amp; Tips</h3> 
                     </div>
                     <div class="gap-12 grid grid-cols-1 lg:grid-cols-3"> 
-                        <div class="bg-white border-2 border-secondary-400 gap-3 grid p-6 rounded-bl-3xl rounded-br rounded-tl rounded-tr-3xl dark:bg-opacity-25 dark:bg-primary-950/90 dark:border-secondary-300 sm:grid-cols-2 lg:grid-cols-1">
-                            <a href="#" class="aspect-square block border-2 border-primary-300 h-60 img-cyberify overflow-hidden relative rounded-bl-xl rounded-tr-xl w-full hover:opacity-75"> <img src="assets/images/Placeholder-random-off-brand-image.jpg" class="h-full object-cover w-full" alt="..." width="350" height="240"/></a>
+                        <div class="gap-3 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-1 bg-primary-950/90 p-6 rounded-tl rounded-br cyber-shape">
+                            <a href="#" class="block relative hover:opacity-75 border-2 border-primary-300 rounded-tr-xl rounded-bl-xl w-full h-60 aspect-square overflow-hidden img-cyberify"> <img src="assets/images/Placeholder-random-off-brand-image.jpg" class="w-full h-full object-cover" alt="..." width="350" height="240"/></a>
                             <div>
-                                <h4 class="font-semibold leading-tight mb-2 text-sm dark:text-primary-300 lg:text-primary-300">10 August 2024</h4>
-                                <a href="#" class="block hover:text-gray-300 text-white"><h5 class="font-bold leading-tight pb-6 text-secondary-500 text-xl dark:text-secondary-300">Does a small startup business really need cybersecurity?</h5> </a>
+                                <h4 class="mb-2 font-semibold text-primary-300 text-sm leading-tight">10 August 2024</h4>
+                                <a href="#" class="block text-white hover:text-gray-300"><h5 class="pb-6 font-bold text-secondary-300 text-xl leading-tight">Does a small startup business really need cybersecurity?</h5> </a>
                             </div>
                         </div>
-                        <div class="bg-white border-2 border-secondary-400 gap-3 grid grid-cols-1 p-6 rounded-bl-3xl rounded-br rounded-tl rounded-tr-3xl dark:bg-opacity-25 dark:bg-primary-950/90 dark:border-secondary-300 sm:grid-cols-2 lg:grid-cols-1">
-                            <a href="#" class="border-2 border-primary-300  overflow-hidden rounded-bl-xl rounded-tr-xl "> <img src="assets/images/Placeholder-random-off-brand-image.jpg" class="h-full object-cover w-full" alt="..." width="350" height="240"/></a>
-                            <div class="lg:block"> 
-                                <h4 class="font-semibold leading-tight mb-2 text-primary-300 text-sm lg:text-primary-300">10 August 2024</h4>
-                                <a href="#" class="block max-h-60 text-white hover:text-gray-300"><h5 class="font-bold leading-tight text-secondary-500 text-xl dark:text-secondary-300">Dangerous and complicated modern times</h5></a> 
-                            </div>
-                        </div>
-                        <div class="bg-white border-2 border-secondary-400 gap-3 grid p-6 rounded-bl-3xl rounded-br rounded-tl rounded-tr-3xl dark:bg-opacity-25 dark:bg-primary-950/90 dark:border-secondary-300 sm:grid-cols-2 lg:grid-cols-1"><a href="#" class="aspect-square block border-2 border-primary-300 h-60 img-cyberify overflow-hidden relative rounded-bl-xl rounded-tr-xl w-full hover:opacity-75"><img src="assets/images/Placeholder-random-off-brand-image.jpg" class="h-full object-cover w-full" alt="..." width="350" height="240"/></a>
+                        <div class="gap-3 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-1 bg-primary-950/90 p-6 border-secondary-300 border-secondary-400 rounded-tl rounded-br cyber-shape">
+                            <a href="#" class="block relative hover:opacity-75 border-2 border-primary-300 rounded-tr-xl rounded-bl-xl w-full h-60 aspect-square overflow-hidden img-cyberify"><img src="assets/images/Placeholder-random-off-brand-image.jpg" class="w-full h-full object-cover" alt="..." width="350" height="240"/></a>
                             <div> 
-                                <h4 class="font-semibold leading-tight mb-2 text-primary-300 text-sm lg:text-primary-300">10 August 2024</h4><a href="#" class="block hover:text-gray-300 text-white"><h5 class="font-bold leading-tight text-secondary-500 text-xl dark:text-secondary-300">Why cybersecurity matters for every small business in 2025</h5></a> 
+                                <h4 class="mb-2 font-semibold text-primary-300 lg:text-primary-300 text-sm leading-tight">10 August 2024</h4>
+                                <a href="#" class="block text-white hover:text-gray-300"><h5 class="font-bold text-secondary-300 text-xl leading-tight">These are dangerous and complicated modern times</h5></a> 
+                            </div>
+                        </div>
+                        <div class="gap-3 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-1 bg-primary-950/90 p-6 border-secondary-300 rounded-tl rounded-br cyber-shape">
+                            <a href="#" class="block relative hover:opacity-75 border-2 border-primary-300 rounded-tr-xl rounded-bl-xl w-full h-60 aspect-square overflow-hidden img-cyberify"><img src="assets/images/Placeholder-random-off-brand-image.jpg" class="w-full h-full object-cover" alt="..." width="350" height="240"/></a>
+                            <div> 
+                                <h4 class="mb-2 font-semibold text-primary-300 lg:text-primary-300 text-sm leading-tight">10 August 2024</h4>
+                                <a href="#" class="block text-white hover:text-gray-300"><h5 class="font-bold text-secondary-300 text-xl leading-tight">Why cybersecurity matters for every small business in 2025</h5></a> 
                             </div>
                         </div>                         
                     </div>                     
                 </div>                 
             </section>
         </main>
-        <div class="relative z-10" style="height:0;" data-pg-name="CyberSeperator">
-            <div class="relative w-full flex" style="height:0;">
-                <div style="height: 64px; width: 100%; display: block; position: relative; top: -32px; background-image: url('assets/images/layout/seperator-cyber-metal.svg'); background-size:1300px 64px ; background-position: 320 center; background-repeat: repeat-x;"></div>
-            </div>
+        <div class="seperator-cyber-metal">
+            <hr/>
         </div>
-        <footer class="bg-primary-950 pt-16 lg:px-12"> 
-            <div class="container mx-auto px-4 relative lg:mx-auto"> 
+        <!-- Footer -->
+        <footer class="bg-gray-950 lg:px-12 pt-16"> 
+            <div class="relative mx-auto lg:mx-auto px-4 container"> 
                 <div class="flex flex-wrap -mx-4"> 
-                    <div class="p-4 w-full md:w-4/12"> <a href="#" class="font-bold font-serif hover:text-opacity-75 inline-flex items-center leading-none mb-6 text-3xl text-primary-500"> <img src="assets/images/brand/logo-icon.png" width="48" class="mr-2" alt="Zugccat Logo Icon"> <span class="font-normal font-sans text-primary-500 text-primary-500">Zugcat</span> </a> 
-                        <p class="text-secondary-300">Snoqualmie, WA USA</p> 
+                    <div class="p-4 w-full md:w-4/12"> <a href="#" class="inline-flex items-center mb-6 font-serif font-bold text-primary-500 text-3xl hover:text-opacity-75 leading-none"> <img src="assets/images/zugcat-logo.svg" width="150" class="mr-2" alt="Zugccat Logo"> </a> 
+                        <p class="text-primary-300">Snoqualmie, WA USA</p> 
                         <div class="mb-6"> <a href="#" class="hover:text-primary-600"></a>
                             <br>
-                            <a href="tel:(425) 470-3643" class="text-orange-300 underline hover:text-primary-600">(425) 470-3643</a> <br> <a href="mailto:info@zugcat.com" class="text-orange-300 underline hover:text-primary-600">info@zugcat.com</a>
+                            <a href="tel:(425) 470-3643" class="text-orange-300 text-secondary-500 hover:text-primary-300 decoration-dotted underline">(425) 470-3643</a> <br> <a href="mailto:info@zugcat.com" class="text-orange-300 text-secondary-500 hover:text-primary-300 decoration-dotted underline">info@zugcat.com</a>
                             <br> 
                         </div>                         
                     </div>                     
                     <div class="p-4 w-full sm:w-6/12 md:w-4/12 xl:w-2/12"> 
-                        <h2 class="font-bold mb-8 text-lg text-primary-500 uppercase">                             About </h2> 
+                        <h2 class="mb-8 font-bold text-primary-300 text-lg uppercase">About</h2> 
                         <ul> 
-                            <li class="mb-4"> <a href="#" class="text-gray-100 hover:text-primary-600">Get a Quote</a> 
+                            <li class="mb-4"> <a href="#" class="text-gray-100 hover:text-secondary-500 hover:underline">Get a Quote</a> 
                             </li>
-                            <li class="mb-4"> <a href="#" class="text-gray-100 hover:text-primary-600">Our Mascot (Zug)</a> 
+                            <li class="mb-4"> <a href="#" class="text-gray-100 hover:text-secondary-500 hover:underline">Our Mascot (Zug)</a> 
                             </li>                             
                         </ul>                         
                     </div>                     
                     <div class="p-4 w-full sm:w-6/12 md:w-4/12 xl:w-2/12"> 
-                        <h2 class="font-bold mb-8 text-lg text-primary-500 uppercase">                             Services </h2> 
+                        <h2 class="mb-8 font-bold text-primary-300 text-lg uppercase">Services</h2> 
                         <ul> 
-                            <li class="mb-4"> <a href="#" class="text-gray-100 hover:text-primary-600">Quillon Roadmap</a> 
+                            <li class="mb-4"> <a href="#" class="text-gray-100 hover:text-secondary-500 hover:underline">Quillon Roadmap</a> 
                             </li>                             
-                            <li class="mb-4"> <a href="#" class="text-gray-100 hover:text-primary-600">Cybersecurity Strategy</a> 
+                            <li class="mb-4"> <a href="#" class="text-gray-100 hover:text-secondary-500 hover:underline">Cybersecurity Strategy</a> 
                             </li>
-                            <li class="mb-4"> <a href="#" class="text-gray-100 hover:text-primary-600">Cybersecurity Policies</a> 
+                            <li class="mb-4"> <a href="#" class="text-gray-100 hover:text-secondary-500 hover:underline">Cybersecurity Policies</a> 
                             </li>                             
-                            <li class="mb-4"> <a href="#" class="text-gray-100 hover:text-primary-600">Cybersecurity Tools</a> 
+                            <li class="mb-4"> <a href="#" class="text-gray-100 hover:text-secondary-500 hover:underline">Cybersecurity Tools</a> 
                             </li>                             
-                            <li class="mb-4"> <a href="#" class="text-gray-100 hover:text-primary-600">Risk Analysis</a> 
+                            <li class="mb-4"> <a href="#" class="text-gray-100 hover:text-secondary-500 hover:underline">Risk Analysis</a> 
                             </li>                             
                         </ul>                         
                     </div>                     
                     <div class="p-4 w-full md:w-4/12 xl:w-4/12"> 
-                        <h2 class="font-bold mb-8 text-lg text-primary-500 uppercase">Subscribe</h2> 
-                        <p class="mb-4">                             Subscribe to our newsletter and get exclusive updates directly in your inbox. </p> 
+                        <h2 class="mb-8 font-bold text-primary-300 text-lg uppercase">Subscribe</h2> 
+                        <p class="mb-4">Subscribe to our newsletter and get exclusive updates directly in your inbox. </p> 
                         <form> 
-                            <div class="bg-white border-2 border-gray-400 flex items-center mb-6 overflow-hidden p-1"> 
-                                <input class="appearance-none border-primary-600 flex-1 font-light outline-none p-2 text-gray-600 w-full" placeholder="Enter email..." type="email"/> 
-                                <button type="submit" class="bg-primary-500 font-medium hover:bg-primary-700 inline-block px-6 py-2 text-center text-white uppercase" aria-label="submit">
-                                    <svg viewBox="0 0 24 24" fill="currentColor" class="h-4 inline-block w-4"> 
+                            <div class="flex items-center bg-white mb-6 p-1 border-2 border-gray-400 overflow-hidden"> 
+                                <input class="flex-1 p-2 border-primary-600 outline-none w-full font-light text-gray-600 appearance-none" placeholder="Enter email..." type="email"/> 
+                                <button type="submit" class="inline-block bg-primary-500 hover:bg-primary-700 px-6 py-2 font-medium text-white text-center uppercase" aria-label="submit">
+                                    <svg viewBox="0 0 24 24" fill="currentColor" class="inline-block w-4 h-4"> 
                                         <path d="M1.946 9.315c-.522-.174-.527-.455.01-.634l19.087-6.362c.529-.176.832.12.684.638l-5.454 19.086c-.15.529-.455.547-.679.045L12 14l6-8-8 6-8.054-2.685z"/> 
                                     </svg>
                                 </button>                                 
                             </div>                             
                         </form>                         
-                        <h2 class="font-bold mb-4 text-lg text-primary-500 uppercase">Get Social</h2> 
-                        <div class="flex-wrap inline-flex space-x-3"> <a href="#" aria-label="facebook" class="hover:text-primary-500"> <svg viewBox="0 0 24 24" fill="currentColor" class="h-5 w-5 text-secondary-300"> 
-                                    <path d="M14 13.5h2.5l1-4H14v-2c0-1.03 0-2 2-2h1.5V2.14c-.326-.043-1.557-.14-2.857-.14C11.928 2 10 3.657 10 6.7v2.8H7v4h3V22h4v-8.5z"/> 
-                                </svg></a> <a href="#" aria-label="twitter" class="hover:text-primary-500"> <svg viewBox="0 0 24 24" fill="currentColor" class="h-5 w-5 text-secondary-300"> 
+                        <h2 class="mb-4 font-bold text-primary-300 text-lg uppercase">Get Social</h2> 
+                        <div class="inline-flex flex-wrap space-x-3"> <a href="#" aria-label="facebook" class="hover:text-primary-500"> <svg viewBox="0 0 24 24" fill="currentColor" class="h-5 text-gray-300 w-5 hover:text-secondary-500"> 
+                                    <path d="M14 13.5h2.5l1-4H14v-2c0-1.03 0-2 2-2h1.5V2.14c-.326-.043-1.557-.14-2.857-.14C11.928 2 10 3.657 10 6.7v2.8H7v4h3V22h4v-8.5z"/>
+                                </svg></a> <a href="#" aria-label="twitter" class="hover:text-primary-500"> <svg viewBox="0 0 24 24" fill="currentColor" class="w-5 h-5 text-gray-300 hover:text-secondary-500"> 
                                     <path d="M22.162 5.656a8.384 8.384 0 0 1-2.402.658A4.196 4.196 0 0 0 21.6 4c-.82.488-1.719.83-2.656 1.015a4.182 4.182 0 0 0-7.126 3.814 11.874 11.874 0 0 1-8.62-4.37 4.168 4.168 0 0 0-.566 2.103c0 1.45.738 2.731 1.86 3.481a4.168 4.168 0 0 1-1.894-.523v.052a4.185 4.185 0 0 0 3.355 4.101 4.21 4.21 0 0 1-1.89.072A4.185 4.185 0 0 0 7.97 16.65a8.394 8.394 0 0 1-6.191 1.732 11.83 11.83 0 0 0 6.41 1.88c7.693 0 11.9-6.373 11.9-11.9 0-.18-.005-.362-.013-.54a8.496 8.496 0 0 0 2.087-2.165z"/> 
-                                </svg></a> <a href="#" aria-label="instagram" class="hover:text-primary-500"> <svg viewBox="0 0 24 24" fill="currentColor" class="h-5 w-5 text-secondary-300"> 
+                                </svg></a> <a href="#" aria-label="instagram" class="hover:text-primary-500"> <svg viewBox="0 0 24 24" fill="currentColor" class="w-5 h-5 text-gray-300 hover:text-secondary-500"> 
                                     <path d="M12 2c2.717 0 3.056.01 4.122.06 1.065.05 1.79.217 2.428.465.66.254 1.216.598 1.772 1.153a4.908 4.908 0 0 1 1.153 1.772c.247.637.415 1.363.465 2.428.047 1.066.06 1.405.06 4.122 0 2.717-.01 3.056-.06 4.122-.05 1.065-.218 1.79-.465 2.428a4.883 4.883 0 0 1-1.153 1.772 4.915 4.915 0 0 1-1.772 1.153c-.637.247-1.363.415-2.428.465-1.066.047-1.405.06-4.122.06-2.717 0-3.056-.01-4.122-.06-1.065-.05-1.79-.218-2.428-.465a4.89 4.89 0 0 1-1.772-1.153 4.904 4.904 0 0 1-1.153-1.772c-.248-.637-.415-1.363-.465-2.428C2.013 15.056 2 14.717 2 12c0-2.717.01-3.056.06-4.122.05-1.066.217-1.79.465-2.428a4.88 4.88 0 0 1 1.153-1.772A4.897 4.897 0 0 1 5.45 2.525c.638-.248 1.362-.415 2.428-.465C8.944 2.013 9.283 2 12 2zm0 5a5 5 0 1 0 0 10 5 5 0 0 0 0-10zm6.5-.25a1.25 1.25 0 0 0-2.5 0 1.25 1.25 0 0 0 2.5 0zM12 9a3 3 0 1 1 0 6 3 3 0 0 1 0-6z"/> 
-                                </svg></a><a href="#" aria-label="linkedin" class="hover:text-primary-500"> <svg viewBox="0 0 24 24" fill="currentColor" class="h-5 w-5 text-secondary-300"> 
+                                </svg></a>
+                            <a href="#" aria-label="linkedin" class="hover:text-primary-500"> <svg viewBox="0 0 24 24" fill="currentColor" class="w-5 h-5 text-gray-300 hover:text-secondary-500"> 
                                     <path d="M6.94 5a2 2 0 1 1-4-.002 2 2 0 0 1 4 .002zM7 8.48H3V21h4V8.48zm6.32 0H9.34V21h3.94v-6.57c0-3.66 4.77-4 4.77 0V21H22v-7.93c0-6.17-7.06-5.94-8.72-2.91l.04-1.68z"/> 
-                                </svg></a><a href="#" aria-label="youtube" class="hover:text-primary-500"> <svg viewBox="0 0 24 24" fill="currentColor" class="h-5 w-5 text-secondary-300"> 
+                                </svg></a>
+                            <a href="#" aria-label="youtube" class="hover:text-primary-500"> <svg viewBox="0 0 24 24" fill="currentColor" class="w-5 h-5 text-gray-300 hover:text-secondary-500"> 
                                     <path d="M21.543 6.498C22 8.28 22 12 22 12s0 3.72-.457 5.502c-.254.985-.997 1.76-1.938 2.022C17.896 20 12 20 12 20s-5.893 0-7.605-.476c-.945-.266-1.687-1.04-1.938-2.022C2 15.72 2 12 2 12s0-3.72.457-5.502c.254-.985.997-1.76 1.938-2.022C6.107 4 12 4 12 4s5.896 0 7.605.476c.945.266 1.687 1.04 1.938 2.022zM10 15.5l6-3.5-6-3.5v7z"/> 
                                 </svg></a> 
                         </div>                         
                     </div>                     
                 </div>                 
                 <div class="py-4"> 
-                    <hr class="mb-4 opacity-25"> 
-                    <div class="flex flex-wrap -mx-4  items-center"> 
-                        <div class="px-4 py-2 w-full md:flex-1"> 
-                            <p class="text-gray-500">&copy; 2025. All Rights Reserved - Zugcat</p> 
+                    <hr class="opacity-25 mb-4"> 
+                    <div class="flex flex-wrap items-center -mx-4"> 
+                        <div class="md:flex-1 px-4 py-2 w-full"> 
+                            <p class="text-gray-500">&copy; 2026. All Rights Reserved - Zugcat</p> 
                         </div>                         
-                        <div class="px-4 py-2 w-full sm:w-auto"> <a href="#" class="text-gray-500 underline hover:text-primary-500">Privacy Policy</a> |                      <a href="#" class="text-gray-500 underline hover:text-primary-500">Terms of Use</a> 
+                        <div class="px-4 py-2 w-full sm:w-auto text-gray-500"> 
+                            <a href="#" class="text-gray-100 hover:text-secondary-500">Privacy Policy</a> | 
+                            <a href="#" class="text-gray-100 hover:text-secondary-500">Terms of Use</a> 
                         </div>                         
                     </div>                     
                 </div>                 
