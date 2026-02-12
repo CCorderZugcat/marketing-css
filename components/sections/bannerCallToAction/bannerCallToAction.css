@@ -1,0 +1,43 @@
+
+/* CTA Banner Chevrons */
+.banner-cta::before {
+  content: "";
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: var(--color-cta-500);
+  background-image: url("../../../assets/images/layout/chevron-green-small.svg");
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: left top;
+  z-index: -1;
+}
+
+.banner-cta::after {
+  content: "";
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+    background-image: url("../../../assets/images/layout/chevron-green-small.svg");
+  background-repeat: no-repeat;
+  background-size: auto;
+  z-index: -1;
+  transform: scaleX(-1);
+}
+
+@media screen and (min-width: 1023px) {
+  /* LG+ Screens ============ */
+  /* CTA Banner Chevrons XL */
+  .banner-cta::before {
+    content: "";
+     background-image: url("../../../assets/images/layout/chevron-green-large.svg");
+  }
+  .banner-cta::after {
+    content: "";
+    background-image: url("../../../assets/images/layout/chevron-green-large.svg");
+  }
+}

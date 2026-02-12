@@ -1,0 +1,18 @@
+/* Nav Link Styles */
+nav a:not(.cta, .logo)::before,
+nav a:not(.cta, .logo)::after {
+  content: "";
+  display: block;
+  width: 0.8em;
+}
+
+nav a:not(.cta, .logo):hover::before {
+  content: "»";
+  color: var(--color-primary-300);
+}
+
+nav a:not(.cta, .logo):hover::after {
+  content: "«";
+  color: var(--color-primary-300);
+  text-align: right;
+}
