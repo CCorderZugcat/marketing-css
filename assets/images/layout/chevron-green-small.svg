@@ -7,26 +7,23 @@
         opacity: .5;
       }
 
-      .st0, .st1 {
+      .st0, .st1, .st2 {
+        fill: #c1fc0a;
         isolation: isolate;
       }
 
-      .st0, .st1, .st2 {
-        fill: #c1db7c;
-      }
-
       .st1 {
-        opacity: .2;
+        opacity: .8;
       }
 
       .st2 {
-        opacity: .8;
+        opacity: .2;
       }
     </style>
   </defs>
   <g id="Layer_2-2">
-    <polygon class="st1" points=".8 0 0 0 0 8.4 36.8 82.7 0 156.9 0 165.3 .8 165.3 41.8 82.4 .8 0"/>
-    <polygon class="st2" points=".2 39.4 .2 125.7 21.6 82.4 .2 39.4"/>
+    <polygon class="st2" points=".8 0 0 0 0 8.4 36.8 82.7 0 156.9 0 165.3 .8 165.3 41.8 82.4 .8 0"/>
+    <polygon class="st1" points=".2 39.4 .2 125.7 21.6 82.4 .2 39.4"/>
     <polygon class="st0" points="0 14.2 0 32.2 25 82.7 0 133 0 151 33.9 82.4 0 14.2"/>
   </g>
 </svg>
